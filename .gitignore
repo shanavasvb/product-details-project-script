@@ -1,0 +1,33 @@
+# Environment and virtual env files
+.env
+myenv/
+venv/
+env/
+ENV/
+
+# Progress and cache files
+barcode_progress.pkl
+*.pkl
+output/cache/
+
+# Logs
+*.log
+logs/
+
+
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
