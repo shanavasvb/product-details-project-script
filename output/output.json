@@ -1866,7 +1866,7 @@
     ],
     "Specification": {
       "Weight": "500g",
-      "Price": "\u20b928"
+      "Price": "₹28"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
@@ -1891,8 +1891,8 @@
     ],
     "Specification": {
       "Weight Options": "1kg, 500g",
-      "Price (1kg)": "\u20b955",
-      "Price (500g)": "\u20b928"
+      "Price (1kg)": "₹55",
+      "Price (500g)": "₹28"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
@@ -2215,5 +2215,175 @@
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
     "Timestamp": "2025-05-31T18:58:58.396226"
+  },
+  {
+    "Barcode": "8906052390040",
+    "Product Name": "NOLTA Enamel Cookware 24cm",
+    "Brand": "NOLTA",
+    "Description": "24cm enamel coated cookware from the NOLTA brand.  Part of a larger batch of cookware and other products (as indicated by the source document).",
+    "Category": "Home & Kitchen",
+    "Subcategory": "Cookware",
+    "ProductLine": "Enamel Cookware",
+    "Quantity": 1,
+    "Unit": "piece",
+    "Features": [
+      "Enamel coating",
+      "Durable construction",
+      "24cm diameter",
+      "Suitable for stovetop cooking (likely, assuming standard enamel cookware)",
+      "Easy to clean"
+    ],
+    "Specification": {
+      "Diameter": "24cm",
+      "Material": "Enamel coated metal (likely steel)",
+      "Type": "Pot or Pan (requires further verification)"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-01T02:07:18.210055"
+  },
+  {
+    "Barcode": "8906052398527",
+    "Product Name": "Nolta SS Delight O/LID 3L Pressure Cooker",
+    "Brand": "Nolta",
+    "Description": "The Nolta SS Delight O/LID 3L Pressure Cooker is a 3-liter stainless steel pressure cooker.  It offers a convenient and efficient way to cook various dishes.  This particular model appears to be currently discounted from ₹2,745.00 to ₹2,590.00.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Pressure Cookers",
+    "ProductLine": "Nolta SS Delight",
+    "Quantity": 3.0,
+    "Unit": "liters",
+    "Features": [
+      "Stainless Steel Construction",
+      "3-Liter Capacity",
+      "Pressure Cooking Functionality",
+      "Lid Included (O/LID)",
+      "Potentially Discounted Price"
+    ],
+    "Specification": {
+      "Capacity": "3 Liters",
+      "Material": "Stainless Steel",
+      "Type": "Pressure Cooker",
+      "Original Price": "₹2,745.00",
+      "Current Price": "₹2,590.00"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-01T02:07:38.840240"
+  },
+  {
+    "Barcode": "8906052398510",
+    "Product Name": "Nolta SS Delight O/LID 5L Pressure Cooker",
+    "Brand": "Nolta",
+    "Description": "The Nolta SS Delight O/LID 5L Pressure Cooker is a 5-liter stainless steel pressure cooker.  It offers a convenient and efficient way to cook various dishes.  This particular listing shows a price of ₹3,190.00 (originally ₹3,385.00).",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Pressure Cookers",
+    "ProductLine": "SS Delight",
+    "Quantity": 5.0,
+    "Unit": "liters",
+    "Features": [
+      "5-liter capacity",
+      "Stainless steel construction",
+      "Pressure cooking functionality for faster cooking",
+      "Likely features safety mechanisms (though not explicitly stated)",
+      "Suitable for various cooking applications"
+    ],
+    "Specification": {
+      "Capacity": "5 liters",
+      "Material": "Stainless Steel",
+      "Type": "Pressure Cooker"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-01T02:07:44.986682"
+  },
+  {
+    "Barcode": "8906052399708",
+    "Product Name": "Nolta Hamaara SS Salasa I/LID 5L Pressure Cooker",
+    "Brand": "Nolta",
+    "Description": "The Nolta Hamaara SS Salasa I/LID 5L Pressure Cooker is a stainless steel pressure cooker with a 5-liter capacity.  It's designed for efficient and safe cooking under pressure.  This model features a lid with an inner seal for enhanced safety and pressure regulation.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Cookware",
+    "ProductLine": "Hamaara",
+    "Quantity": 5.0,
+    "Unit": "liters",
+    "Features": [
+      "Stainless Steel Construction",
+      "5 Liter Capacity",
+      "Safe and Efficient Pressure Cooking",
+      "Secure Lid with Inner Seal",
+      "Durable and Long-lasting"
+    ],
+    "Specification": {
+      "Capacity": "5 Liters",
+      "Material": "Stainless Steel",
+      "Lid Type": "I/LID (Inner Lid)",
+      "Type": "Pressure Cooker"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-01T02:08:25.043521"
+  },
+  {
+    "Barcode": "8906052397957",
+    "Product Name": "NOLTA 7 PCS Lemon Set",
+    "Brand": "NOLTA",
+    "Description": "A set of 7 lemon-themed items.  The exact contents are not fully specified but are part of a larger batch including a tumbler, coffee mug, and flask.",
+    "Category": "Home & Kitchen",
+    "Subcategory": "Drinkware & Serveware",
+    "ProductLine": "NOLTA",
+    "Quantity": 7,
+    "Unit": "pieces",
+    "Features": [
+      "Lemon-themed design",
+      "Set of 7 pieces",
+      "Variety of items (likely includes cups, possibly other serving pieces)",
+      "Durable construction (assumed)",
+      "Suitable for everyday use (assumed)"
+    ],
+    "Specification": {
+      "Material": "Unknown",
+      "Dimensions": "Unknown",
+      "Weight": "Unknown",
+      "Care Instructions": "Unknown"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-01T02:09:01.273309"
+  },
+  {
+    "Barcode": "8906052399807",
+    "Product Name": "NOLTA GLASS FLORENCE",
+    "Brand": "NOLTA",
+    "Description": "Glass Florence item from the Batch (MRP, SP, BP) 31 May 23 listing.  Further details about the specific type of glass item (e.g., vase, drinking glass, etc.) are unavailable from the provided source.",
+    "Category": "Home Goods",
+    "Subcategory": "Glassware",
+    "ProductLine": "NOLTA Florence Collection (Inferred)",
+    "Quantity": 1,
+    "Unit": "piece",
+    "Features": [
+      "Made of glass",
+      "Part of the NOLTA Florence collection (inferred)",
+      "Likely suitable for decorative or functional use (depending on the specific type of glass item)"
+    ],
+    "Specification": {
+      "Material": "Glass",
+      "Style": "Florence (Inferred)",
+      "Additional Details": "More specific details require additional information beyond the provided barcode and source."
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-01T02:18:55.696671"
   }
 ]

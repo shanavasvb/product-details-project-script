@@ -1,7 +1,7 @@
 import json
 
 # Load the JSON file
-with open('output.json', 'r') as file:
+with open('output/output.json', 'r') as file:
     data = json.load(file)
 
 # Count the number of documents

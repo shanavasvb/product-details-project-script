@@ -1426,37 +1426,105 @@ class BarcodeProcessor:
     
      return result 
     def _save_product_data(self, product_data: Dict) -> None:
-        """Save product data to JSON file(s)."""
-        barcode = product_data['Barcode']
-        
-        # Add to all_products list
-        if self.single_file:
-            # Check if this barcode already exists in the list
-            existing_index = None
-            for i, existing_product in enumerate(self.all_products):
-                if existing_product.get('Barcode') == barcode:
-                    existing_index = i
-                    break
-                    
-            # Replace or append product data
-            if existing_index is not None:
-                self.all_products[existing_index] = product_data
-            else:
-                self.all_products.append(product_data)
+     """Save product data to JSON file(s), excluding unknown products from the main output."""
+     barcode = product_data['Barcode']
+    
+     # Check if this is an unknown product
+     if self.is_unknown_product(product_data):
+        # Save to not_found_barcodes.json only
+        self._add_to_not_found_barcodes(product_data)
+        logger.info(f"Product with barcode {barcode} classified as unknown, saved to not_found_barcodes.json only")
+        return
+    
+     # Add to all_products list (only known products)
+     if self.single_file:
+        # Check if this barcode already exists in the list
+        existing_index = None
+        for i, existing_product in enumerate(self.all_products):
+            if existing_product.get('Barcode') == barcode:
+                existing_index = i
+                break
                 
-            # Save the updated all_products list
-            with open(self.single_file_path, "w") as f:
-                json.dump(self.all_products, f, indent=2)
+        # Replace or append product data
+        if existing_index is not None:
+            self.all_products[existing_index] = product_data
+        else:
+            self.all_products.append(product_data)
             
-            logger.info(f"Updated single JSON file with data for barcode: {barcode}")
+        # Save the updated all_products list
+        with open(self.single_file_path, "w") as f:
+            json.dump(self.all_products, f, indent=2)
         
-        # Optionally save individual file (if not in single_file mode)
-        if not self.single_file:
-            filename = os.path.join(self.output_dir, f"{barcode}.json")
-            with open(filename, "w") as f:
-                json.dump(product_data, f, indent=2)
-            logger.info(f"Saved product data for {barcode} to {filename}")
+        logger.info(f"Updated single JSON file with data for barcode: {barcode}")
+    
+     # Optionally save individual file (if not in single_file mode)
+     if not self.single_file:
+        filename = os.path.join(self.output_dir, f"{barcode}.json")
+        with open(filename, "w") as f:
+            json.dump(product_data, f, indent=2)
+        logger.info(f"Saved product data for {barcode} to {filename}")
+
+    def is_unknown_product(self, product_data):
+     """
+     Check if a product is considered 'unknown' or not found
+    
+     Args:
+        product_data (dict): Product data dictionary
         
+     Returns:
+        bool: True if product is unknown/not found
+     """
+     indicators = [
+        product_data.get("Product Name", "").startswith("Unknown Product"),
+        product_data.get("Brand", "") == "Unknown",
+        product_data.get("Category", "") == "Unknown",
+        product_data.get("Data Source", "") == "No Data Found",
+        product_data.get("Description", "").startswith("Could not find information"),
+        "Information not available" in product_data.get("Features", [])
+     ]
+    
+     return any(indicators)
+    def _add_to_not_found_barcodes(self, product_data: Dict) -> None:
+     """Add a product to the not_found_barcodes.json file."""
+     barcode = product_data['Barcode']
+     not_found_file = os.path.join(self.output_dir, "not_found_barcodes.json")
+     not_found_data = []
+    
+     # Load existing not found data if available
+     if os.path.exists(not_found_file):
+        try:
+            with open(not_found_file, 'r') as f:
+                not_found_data = json.load(f)
+        except json.JSONDecodeError:
+            logger.warning(f"Could not parse existing not found file, starting fresh")
+    
+     # Check if barcode already exists in the list
+     existing_index = None
+     for i, item in enumerate(not_found_data):
+        if item.get('barcode') == barcode:
+            existing_index = i
+            break
+    
+     # Create entry
+     timestamp = product_data.get('Timestamp')
+     if existing_index is not None:
+        # Update existing entry
+        not_found_data[existing_index]['attempts'] = not_found_data[existing_index].get('attempts', 0) + 1
+        not_found_data[existing_index]['last_attempt'] = timestamp
+     else:
+        # Add new entry
+        not_found_data.append({
+            'barcode': barcode,
+            'attempts': 1,
+            'first_attempt': timestamp,
+            'last_attempt': timestamp,
+            'reasons': ["No product data found"]
+        })
+    
+     # Save updated list
+     with open(not_found_file, 'w') as f:
+        json.dump(not_found_data, f, indent=2)
+
     def display_last_processed_item(self):
         """Display the last processed item in the terminal."""
         if self.last_processed_item:
