@@ -31,3 +31,6 @@ __pycache__/
 # OS specific files
 .DS_Store
 Thumbs.db
+
+#OUTPUTFILE
+output/barcode_products.json

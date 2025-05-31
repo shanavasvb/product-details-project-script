@@ -3,91 +3,95 @@
     "Barcode": "8902102127468",
     "Product Name": "New Super Chek Fabric Whitener",
     "Brand": "New",
-    "Description": "New Super Chek is a fabric whitener from Jyothy Labs, a leading brand in the fabric care industry.  It's part of a portfolio that includes other popular whitener brands like Henko, Mr. White, and More Light.  This product helps to brighten and whiten clothes, restoring their original vibrancy.",
+    "Description": "New Super Chek is a fabric whitener from Jyothy Labs, a leading brand in the fabric care industry.  It's part of a portfolio that includes other popular whiteners like Henko, Mr. White, and More Light.  This product helps brighten and revitalize fabrics, keeping them looking their best.",
     "Category": "Household Cleaning Supplies",
     "Subcategory": "Laundry Products",
-    "ProductLine": "Fabric Whiteners",
+    "ProductLine": "Fabric Whitener",
     "Quantity": 1,
     "Unit": "bottle",
     "Features": [
       "Brightens and whitens fabrics",
-      "Restores vibrancy to clothes",
-      "Effective on various fabric types (this needs verification from product packaging or website)",
-      "Easy to use (this needs verification from product packaging or website)",
-      "Long-lasting results (this needs verification from product packaging or website)"
+      "Removes stains and discoloration",
+      "Keeps clothes looking fresh and new",
+      "Suitable for various fabrics (Further specification needed)",
+      "Easy to use"
     ],
     "Specification": {
       "Size": "Unknown (requires further information)",
       "Weight": "Unknown (requires further information)",
       "Ingredients": "Unknown (requires further information)",
-      "Packaging": "Unknown (requires further information)"
+      "Usage Instructions": "Unknown (requires further information)"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:21:40.573632"
+    "Timestamp": "2025-05-31T18:51:08.214901"
   },
   {
     "Barcode": "8902102163633",
-    "Product Name": "Exo Round",
+    "Product Name": "Exo Round Protein Bar",
     "Brand": "Exo",
-    "Description": "",
-    "Category": "Other",
-    "Subcategory": "",
-    "ProductLine": "Exo Products",
-    "Quantity": 0,
-    "Unit": "",
-    "Features": [
-      "Quality product",
-      "Trusted brand",
-      "Good value"
-    ],
-    "Specification": {
-      "Brand": "Exo",
-      "Country of Origin": "India",
-      "Barcode Type": "13-digit barcode"
-    },
-    "Product Image": "https://images.openfoodfacts.org/images/products/890/210/216/3633/front_en.3.400.jpg",
-    "Product Ingredient Image": "",
-    "Nutrition Image": "",
-    "Data Source": "Intelligent Processing - OpenFoodFacts",
-    "Timestamp": "2025-05-31T04:21:47.449395"
-  },
-  {
-    "Barcode": "8902102163732",
-    "Product Name": "Exo Protein Bar - Chocolate Peanut Butter",
-    "Brand": "Exo",
-    "Description": "Exo Protein Bar is a high-protein snack bar made with cricket flour.  This particular bar combines the flavors of chocolate and peanut butter for a delicious and nutritious treat. It's a good source of protein and fiber, making it a convenient and satisfying option for athletes, busy individuals, or anyone looking for a healthy snack.",
+    "Description": "Exo Round Protein Bar is a convenient and nutritious snack bar made with cricket flour.  It provides a good source of protein and fiber, and is a sustainable alternative to traditional protein bars.  The specific flavor and ingredients will vary depending on the exact variant (this data requires further investigation using the image or additional sources).",
     "Category": "Food",
     "Subcategory": "Protein Bars",
     "ProductLine": "Exo Protein Bars",
     "Quantity": 1,
     "Unit": "bar",
     "Features": [
-      "High protein content",
-      "Made with cricket flour",
-      "Chocolate Peanut Butter flavor",
+      "High in protein",
       "Good source of fiber",
-      "Convenient and portable snack"
+      "Made with cricket flour",
+      "Sustainable and environmentally friendly",
+      "Convenient snack"
     ],
     "Specification": {
-      "Weight": "60g (approx)",
-      "Protein": "10g (approx)",
-      "Fiber": "5g (approx)",
-      "Serving Size": "1 bar"
+      "Weight": "Unknown (requires further investigation)",
+      "Flavor": "Unknown (requires further investigation)",
+      "Ingredients": "Unknown (requires further investigation)",
+      "Nutritional Information": "Unknown (requires further investigation)"
+    },
+    "Product Image": "https://images.openfoodfacts.org/images/products/890/210/216/3633/front_en.3.400.jpg",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:51:14.975394"
+  },
+  {
+    "Barcode": "8902102163732",
+    "Product Name": "Exo Protein Bar",
+    "Brand": "Exo",
+    "Description": "Exo Protein Bars are a convenient and nutritious snack made with cricket flour.  They provide a good source of protein and fiber, and are a delicious alternative to traditional protein bars.  The specific flavor and ingredients will vary depending on the exact product variant (the image suggests a chocolate-based flavor).",
+    "Category": "Food",
+    "Subcategory": "Protein Bars",
+    "ProductLine": "Exo Protein Bars",
+    "Quantity": 1,
+    "Unit": "bar",
+    "Features": [
+      "High in protein",
+      "Good source of fiber",
+      "Made with cricket flour",
+      "Convenient snack",
+      "Relatively low in sugar (compared to some traditional protein bars - this needs verification from the specific product variant)"
+    ],
+    "Specification": {
+      "Serving Size": "Check individual packaging",
+      "Protein Content": "Check individual packaging",
+      "Fiber Content": "Check individual packaging",
+      "Sugar Content": "Check individual packaging",
+      "Net Weight": "Check individual packaging"
     },
     "Product Image": "https://images.openfoodfacts.org/images/products/890/210/216/3732/front_en.3.400.jpg",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:21:51.541607"
+    "Timestamp": "2025-05-31T18:51:19.378027"
   },
   {
     "Barcode": "8902102163923",
     "Product Name": "Exo Dish Wash Bar (Anti-Bacterial)",
     "Brand": "Check",
-    "Description": "Exo Dish Wash Bar is an anti-bacterial dishwashing bar designed for cleaning dishes.  Its halal status is currently under review by the Mustakshif Sharia Board.  This smaller pack is 60g.  Ingredients require verification.",
+    "Description": "Exo Dish Wash Bar is an anti-bacterial dishwashing bar designed for cleaning dishes.  Its Halal status is pending verification by the Mustakshif Shariah Board.  This smaller pack is convenient for smaller households or for trial purposes.",
     "Category": "Household Cleaning",
     "Subcategory": "Dishwashing",
     "ProductLine": "Exo",
@@ -95,9 +99,9 @@
     "Unit": "bar",
     "Features": [
       "Anti-bacterial",
-      "Suitable for dishwashing",
-      "Small, 60g pack size",
-      "Halal status pending verification"
+      "Convenient small pack size (60g)",
+      "Designed for effective dish cleaning",
+      "Halal status verification pending"
     ],
     "Specification": {
       "Weight": "60g",
@@ -109,7 +113,7 @@
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:21:56.716446"
+    "Timestamp": "2025-05-31T18:51:23.576788"
   },
   {
     "Barcode": "8902102163671",
@@ -135,13 +139,13 @@
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "Intelligent Processing - OpenFoodFacts",
-    "Timestamp": "2025-05-31T04:22:01.213850"
+    "Timestamp": "2025-05-31T18:51:28.392114"
   },
   {
     "Barcode": "8902102163640",
     "Product Name": "Exo Dishwash Bar Anti-Bacterial with Cyclozan",
     "Brand": "Exo",
-    "Description": "Exo Anti-Bacterial Dishwash Bar effectively cleans dishes, leaving them odor-free and sparkling.  Formulated with Cyclozan for enhanced antibacterial action.  Available in various fragrances, such as Ginger Twist (as seen in the source).  Provides a thorough clean while being gentle on hands.",
+    "Description": "Exo Anti-Bacterial Dishwash Bar effectively cleans dishes, removing odors and leaving them sparkling.  This particular variant may include a Ginger Twist fragrance (based on available information).  It's designed for efficient and hygienic dishwashing.",
     "Category": "Household Cleaning",
     "Subcategory": "Dishwashing",
     "ProductLine": "Exo Dishwash Bars",
@@ -149,52 +153,51 @@
     "Unit": "g",
     "Features": [
       "Anti-bacterial formula with Cyclozan",
-      "Effectively removes grease and food residue",
-      "Leaves dishes sparkling and odor-free",
-      "Gentle on hands",
-      "Available in multiple fragrances"
+      "Effective odor removal",
+      "Leaves dishes sparkling clean",
+      "Convenient bar format",
+      "May contain a pleasant fragrance (e.g., Ginger Twist)"
     ],
     "Specification": {
       "Weight": "300g",
-      "Type": "Bar",
+      "Type": "Dishwashing Bar",
       "Active Ingredient": "Cyclozan"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:22:06.967966"
+    "Timestamp": "2025-05-31T18:51:33.918130"
   },
   {
     "Barcode": "8902102163930",
-    "Product Name": "Buy Exo Dish Wash Bar Anti Bacterial Withcyclozan 140 Gm Pouch ...",
-    "Brand": "Buy",
-    "Description": "Exo dish bar product not only cleans your utensils but also protects them from harmful germs and bacteria. It is fortified with powerful anti-bacterial\u00a0...",
-    "Category": "Household",
-    "Subcategory": "Dishwashing",
-    "ProductLine": "Buy Dishwashing Products",
-    "Quantity": 140.0,
+    "Product Name": "Exo Anti-Bacterial Dishwash Liquid",
+    "Brand": "Exo",
+    "Description": "Exo Anti-Bacterial Dishwash Liquid is a powerful cleaning solution designed to effectively remove grease and grime from dishes.  Manufactured by Jyothy Labs Ltd., it provides a hygienic clean while eliminating bacteria.  This particular listing refers to a 135g pack, although the barcode may also be associated with other pack sizes.",
+    "Category": "Household Cleaning Supplies",
+    "Subcategory": "Dishwashing Liquids",
+    "ProductLine": "Exo Dishwash",
+    "Quantity": 135.0,
     "Unit": "g",
     "Features": [
-      "Effective cleaning",
-      "Easy to use",
-      "Value for money",
-      "Cuts through grease effectively",
-      "Gentle on hands",
-      "Anti-bacterial formula"
+      "Anti-bacterial formula",
+      "Effective grease and grime removal",
+      "Leaves dishes sparkling clean",
+      "Suitable for hand washing",
+      "Manufactured by Jyothy Labs Ltd."
     ],
     "Specification": {
-      "Brand": "Buy",
-      "Country of Origin": "India",
-      "Barcode Type": "13-digit barcode",
-      "Weight/Volume": "140.0 g",
-      "Net Quantity": "140.0 g"
+      "Manufacturer": "Jyothy Labs Ltd.",
+      "Weight": "135g (as listed on Amazon, may vary by packaging)",
+      "Type": "Dishwashing Liquid",
+      "Scent": "Unspecified (Further information needed)",
+      "Packaging": "Bottle (Further information needed)"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
-    "Data Source": "Intelligent Processing - Google Search",
-    "Timestamp": "2025-05-31T04:22:12.637771"
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:51:39.755149"
   },
   {
     "Barcode": "8902102164166",
@@ -211,53 +214,52 @@
       "Leaves no residue on dishes",
       "Provides a touch of shine",
       "Easy to use and rinse",
-      "Effective on various types of dishes and cookware"
+      "Effective cleaning power"
     ],
     "Specification": {
       "Weight": "200g",
       "Type": "Dishwashing Bar",
-      "Scent": "Unscented (assumed, needs verification)",
-      "EAN Code": "8902102164166"
+      "Scent": "Unspecified (Further information needed)",
+      "Packaging": "Unspecified (Further information needed)"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:22:18.271356"
+    "Timestamp": "2025-05-31T18:51:44.464631"
   },
   {
     "Barcode": "8902102164067",
     "Product Name": "Exo Antibacterial 2-in-1 Scrubber",
     "Brand": "Exo",
-    "Description": "The Exo Antibacterial 2-in-1 Scrubber is a 25g cleaning utensil featuring an ALOX coating on both sides for superior cleaning power.  It's designed for effective antibacterial cleaning and is suitable for various kitchen tasks.",
+    "Description": "The Exo Antibacterial 2-in-1 Scrubber is a cleaning utensil featuring an ALOX coating on both sides for superior cleaning performance.  It's designed for effective removal of dirt and grime from various surfaces.  This scrubber is antibacterial, promoting hygiene in the kitchen.",
     "Category": "Household Cleaning Supplies",
     "Subcategory": "Cleaning Utensils",
-    "ProductLine": "Exo Bacto Scrub",
-    "Quantity": 25.0,
-    "Unit": "g",
+    "ProductLine": "Exo Antibacterial Scrubbers",
+    "Quantity": 1,
+    "Unit": "piece",
     "Features": [
       "ALOX coating on both sides for enhanced cleaning",
-      "Antibacterial properties",
+      "Antibacterial properties for improved hygiene",
       "2-in-1 design for versatile cleaning",
-      "Effective on various surfaces",
-      "Compact and easy to use"
+      "Effective dirt and grime removal",
+      "Durable and long-lasting construction"
     ],
     "Specification": {
-      "Weight": "25g",
-      "Material": "ALOX coated (Specific material needs further investigation)",
-      "EAN Code": "8902102164067"
+      "EAN Code": "8902102164067",
+      "Weight": "25g"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:22:24.004588"
+    "Timestamp": "2025-05-31T18:51:50.506928"
   },
   {
     "Barcode": "8902102163961",
     "Product Name": "Exo Anti Dish Shine Bar",
     "Brand": "Exo",
-    "Description": "Exo Anti Dish Shine Bar is a cleaning bar designed to effectively clean utensils while providing protection.  This product is specifically formulated to clean and protect your dishes, leaving them sparkling and free from damage.",
+    "Description": "Exo Anti Dish Shine Bar is a dishwashing bar that effectively cleans utensils while providing protection.  It's a convenient and efficient way to keep your dishes sparkling clean.",
     "Category": "Household Cleaning",
     "Subcategory": "Dishwashing Supplies",
     "ProductLine": "Exo Dish Cleaning",
@@ -266,21 +268,21 @@
     "Features": [
       "Cleans utensils effectively",
       "Protects utensils from damage",
-      "Provides a sparkling shine",
+      "Provides shine to dishes",
       "Convenient bar format",
-      "Made in India"
+      "Cost-effective cleaning solution"
     ],
     "Specification": {
       "EAN Code": "8902102163961",
-      "Weight": "115g",
+      "Weight": "115 g",
       "Country of Origin": "India",
-      "Type": "Dishwashing Bar"
+      "Packaging": "Bar"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:22:29.842319"
+    "Timestamp": "2025-05-31T18:51:55.934713"
   },
   {
     "Barcode": "8902102164173",
@@ -290,7 +292,7 @@
     "Category": "Home Cleaning Supplies",
     "Subcategory": "Cleaning Tools",
     "ProductLine": "EXO Cleaning Products",
-    "Quantity": null,
+    "Quantity": 0,
     "Unit": "piece",
     "Features": [
       "Made from high-quality stainless steel",
@@ -302,222 +304,223 @@
     "Specification": {
       "Material": "Stainless Steel",
       "Type": "Scrubber",
-      "Dimensions": "Unknown (requires further information from manufacturer)",
-      "Weight": "Unknown (requires further information from manufacturer)"
+      "Dimensions": "Unknown (requires further information)",
+      "Weight": "Unknown (requires further information)"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:22:39.160591"
+    "Timestamp": "2025-05-31T18:52:06.628525"
   },
   {
     "Barcode": "8902102163459",
     "Product Name": "Exo Super Gel Ginger",
     "Brand": "Exo",
-    "Description": "Exo Super Gel Ginger is a laundry detergent gel.  Manufactured and marketed by Jyothy Labs Ltd.",
-    "Category": "Household Cleaning",
+    "Description": "Exo Super Gel Ginger is a cleaning gel manufactured and marketed by Jyothy Labs Ltd.  This product is available in various sizes and is known for its effective cleaning power.",
+    "Category": "Cleaning Supplies",
     "Subcategory": "Laundry Detergent",
     "ProductLine": "Exo Super Gel",
     "Quantity": 250,
     "Unit": "g",
     "Features": [
-      "Effective stain removal",
-      "Pleasant ginger fragrance",
-      "Concentrated formula for efficient cleaning",
-      "Suitable for hand and machine washing"
+      "Effective cleaning power",
+      "Ginger fragrance",
+      "Suitable for various fabrics",
+      "Easy to use gel formula",
+      "Manufactured by a reputable brand"
     ],
     "Specification": {
       "EAN Code": "8902102163459",
       "Manufacturer": "Jyothy Labs Ltd",
-      "Scent": "Ginger",
-      "Weight": "250g"
+      "Weight": "250g",
+      "Fragrance": "Ginger"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:22:43.620612"
+    "Timestamp": "2025-05-31T18:52:12.216092"
   },
   {
     "Barcode": "8902102163992",
-    "Product Name": "Thomman's Exo Super Gel (Ginger)",
-    "Brand": "Thomman's",
-    "Description": "Exo Super Gel, a ginger-flavored product from Jyothy Labs, available in a pouch.  This product is currently without customer reviews.",
-    "Category": "Health and Beauty",
-    "Subcategory": "Personal Care",
-    "ProductLine": "Exo Super Gel",
-    "Quantity": 1,
-    "Unit": "pouch",
+    "Product Name": "Exo Super Gel DishWash",
+    "Brand": "Exo",
+    "Description": "Exo Super Gel DishWash is a concentrated dishwashing liquid designed for effective cleaning of dishes and cookware.  It's formulated to cut through grease and grime, leaving dishes sparkling clean.  This particular product comes in a 100g package.",
+    "Category": "Cleaning Supplies",
+    "Subcategory": "Dishwashing Detergents",
+    "ProductLine": "Exo Dishwashing Products",
+    "Quantity": 100.0,
+    "Unit": "g",
     "Features": [
-      "Ginger flavored",
-      "Comes in a pouch",
-      "100ml size (inferred from URL)",
-      "Suitable for topical application (inferred from name and category)",
-      "From Jyothy Labs"
+      "Concentrated formula for efficient cleaning",
+      "Effective grease and grime removal",
+      "Leaves dishes sparkling clean",
+      "Convenient 100g packaging"
     ],
     "Specification": {
-      "Size": "100ml",
-      "Flavor": "Ginger",
-      "Packaging": "Pouch",
-      "Brand": "Jyothy Labs",
-      "Price": "NZ$ 1.99"
+      "Weight": "100g",
+      "Type": "Gel Dishwash"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:22:48.848636"
+    "Timestamp": "2025-05-31T18:52:17.848232"
   },
   {
     "Barcode": "8902102162582",
     "Product Name": "Maxo Genius Instant Action 1 Machine + 1 Refill (45ml)",
     "Brand": "Maxo",
-    "Description": "Maxo Genius Instant Action is a two-piece set containing one machine and one 45ml refill.  The product is described as pure and hygienically packed.  More details about the specific action or purpose of the product are not available from the provided source.",
+    "Description": "The Maxo Genius Instant Action is a complete kit containing one machine and one 45ml refill.  All products are pure and hygienically packed.  This product is designed for [Insert Product Function - needs further information from source or product packaging].",
     "Category": "Health and Beauty",
-    "Subcategory": "Personal Care",
+    "Subcategory": "Personal Care Appliances",
     "ProductLine": "Maxo Genius",
     "Quantity": 45.0,
     "Unit": "ml",
     "Features": [
-      "Contains one machine and one refill",
+      "Includes one machine and one refill",
       "45ml refill capacity",
       "Hygienically packed",
-      "Pure ingredients (further details needed)",
-      "Instant action (further details needed)"
+      "Pure ingredients",
+      "[Add another feature based on product function - e.g., 'Easy to use', 'Portable', 'Long-lasting']"
     ],
     "Specification": {
       "Item Code": "8902102162582",
-      "Refill Volume": "45 ml"
+      "Refill Volume": "45 ml",
+      "Material": "[Needs further information]",
+      "Power Source": "[Needs further information]",
+      "Dimensions": "[Needs further information]"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:22:54.695202"
+    "Timestamp": "2025-05-31T18:52:24.023983"
   },
   {
     "Barcode": "8902102163480",
     "Product Name": "Exo Super Gel Dish Wash Ginger Twist",
     "Brand": "Exo",
-    "Description": "Exo Super Gel Dish Wash Ginger Twist is a powerful yet gentle dishwashing liquid.  Its ginger twist fragrance leaves dishes sparkling clean and smelling fresh.  This concentrated formula is effective on tough grease and food residue, requiring less product per wash, making it economical and environmentally friendly.",
+    "Description": "Exo Super Gel Dish Wash Ginger Twist is a powerful yet gentle dishwashing liquid.  Its ginger twist fragrance leaves dishes sparkling clean and smelling fresh.  This concentrated formula is effective on tough grease and food residue, while being kind to hands.",
     "Category": "Cleaning Supplies",
     "Subcategory": "Dishwashing Liquid",
     "ProductLine": "Exo Super Gel",
     "Quantity": 700,
     "Unit": "g",
     "Features": [
-      "Powerful cleaning action against grease and food residue",
-      "Refreshing ginger twist fragrance",
-      "Concentrated formula for economical use",
+      "Powerful cleaning action",
+      "Ginger Twist fragrance",
+      "Concentrated formula for efficiency",
       "Gentle on hands",
-      "Effective on a variety of dishes and cookware"
+      "Effective on grease and food residue"
     ],
     "Specification": {
       "Weight": "700g",
       "Scent": "Ginger Twist",
-      "Type": "Gel",
+      "Type": "Gel Dishwash",
       "Packaging": "Bottle"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:23:00.203912"
+    "Timestamp": "2025-05-31T18:52:29.829088"
   },
   {
     "Barcode": "8902102160144",
-    "Product Name": "Ghani Gold Pooja Til Oil",
-    "Brand": "Ghani",
-    "Description": "Ghani Gold Pooja Til Oil is a high-quality sesame oil specifically designed for religious ceremonies and rituals (Pooja).  It's known for its purity and traditional use in Indian households.",
-    "Category": "Personal Care",
-    "Subcategory": "Oils",
-    "ProductLine": "Pooja Oils",
-    "Quantity": 450.0,
-    "Unit": "ml",
+    "Product Name": "Maya Chardham Agarbatti Incense Sticks",
+    "Brand": "Maya",
+    "Description": "Maya Chardham Agarbatti incense sticks offer a fragrant and traditional Indian incense experience.  These sticks are ideal for religious ceremonies, meditation, or simply creating a calming atmosphere in your home.  The scent is designed to evoke a sense of peace and tranquility.",
+    "Category": "Home & Living",
+    "Subcategory": "Incense & Aromatherapy",
+    "ProductLine": "Agarbatti",
+    "Quantity": 50,
+    "Unit": "sticks",
     "Features": [
-      "Pure Sesame Oil",
-      "Suitable for religious ceremonies",
-      "Traditional Indian use",
-      "High quality",
-      "450ml bottle"
+      "Traditional Indian incense",
+      "Pleasant and calming fragrance",
+      "Suitable for religious ceremonies and meditation",
+      "Creates a relaxing atmosphere",
+      "Long-lasting burn time"
     ],
     "Specification": {
-      "Volume": "450 ml",
-      "Type": "Sesame Oil",
-      "Purpose": "Pooja (Religious Rituals)",
-      "Brand": "Ghani"
+      "Scent Profile": "Chardham (specific scent profile not detailed in source)",
+      "Packaging": "Likely in a standard incense stick box",
+      "Approximate Stick Length": "Unknown (requires further information)",
+      "Burn Time per Stick": "Unknown (requires further information)",
+      "Price": "8.00 INR (as listed on source website)"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:23:05.370291"
+    "Timestamp": "2025-05-31T18:52:35.762148"
   },
   {
     "Barcode": "8902102160212",
     "Product Name": "Maya Rose Agarbathi Incense Sticks",
     "Brand": "Maya",
-    "Description": "Fragrant incense sticks with a rose scent, ideal for religious ceremonies or aromatherapy.  These sticks offer a pleasant and calming aroma, perfect for creating a peaceful atmosphere.",
+    "Description": "Maya Rose Agarbathi incense sticks offer a fragrant and calming experience.  These incense sticks are ideal for religious ceremonies, meditation, or simply creating a relaxing atmosphere at home.  They are known for their pleasant rose scent.",
     "Category": "Home & Living",
-    "Subcategory": "Incense & Aromatherapy",
+    "Subcategory": "Incense & Aromatic Products",
     "ProductLine": "Agarbathi",
     "Quantity": 10,
     "Unit": "sticks",
     "Features": [
-      "Rose fragrance",
+      "Pleasant rose fragrance",
       "Suitable for religious ceremonies and meditation",
-      "Creates a calming and peaceful atmosphere",
-      "Pleasant aroma",
-      "Affordable price"
+      "Creates a relaxing atmosphere",
+      "Affordable price point",
+      "Traditional incense stick format"
     ],
     "Specification": {
       "Scent": "Rose",
       "Type": "Incense Sticks",
-      "Approximate Burn Time": "Unknown",
-      "Packaging": "Unknown",
+      "Approximate Burning Time": "Unspecified",
+      "Packaging": "Unspecified",
       "SKU": "8902102160212"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:23:14.677383"
+    "Timestamp": "2025-05-31T18:52:46.826634"
   },
   {
     "Barcode": "8902102162117",
     "Product Name": "Maya Rose Agarbatti",
     "Brand": "Maya",
-    "Description": "Maya Rose Agarbatti incense sticks offer a pleasant and fragrant experience.  These incense sticks are designed to create a calming and relaxing atmosphere.  They are ideal for use in homes, temples, or during meditation.",
+    "Description": "Maya Rose Agarbatti incense sticks offer a fragrant and aromatic experience.  These incense sticks are designed to create a calming and pleasant atmosphere.  The rose scent is known for its relaxing and uplifting qualities.",
     "Category": "Home & Living",
-    "Subcategory": "Incense & Aromatherapy",
-    "ProductLine": "Agarbatti",
+    "Subcategory": "Home Fragrance",
+    "ProductLine": "Agarbatti/Incense Sticks",
     "Quantity": 1,
-    "Unit": "box",
+    "Unit": "Pack",
     "Features": [
       "Rose fragrance",
-      "Relaxing and calming aroma",
-      "Suitable for home use and meditation",
+      "Relaxing and uplifting aroma",
+      "Creates a calming atmosphere",
       "Traditional incense sticks",
-      "Pleasant scent"
+      "Suitable for home use"
     ],
     "Specification": {
       "Scent": "Rose",
       "Type": "Incense Sticks",
-      "Weight": "Unknown",
-      "Quantity per Box": "Unknown"
+      "Packaging": "Likely in a standard incense stick pack (size unspecified)",
+      "Weight": "Unspecified"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:23:24.826283"
+    "Timestamp": "2025-05-31T18:52:57.395534"
   },
   {
     "Barcode": "8902102164074",
     "Product Name": "Exo Anti-Bacterial Scouring Powder Lemon Zing",
     "Brand": "Exo",
-    "Description": "Exo Anti-Bacterial Scouring Powder Lemon Zing is a cleaning powder that effectively removes tough stains and grime.  It's formulated with a lemon zing scent and is gentle on hands. Manufactured and marketed by Jyothy Laboratories Ltd.",
+    "Description": "Exo Anti-Bacterial Scouring Powder Lemon Zing is a cleaning powder that effectively removes tough stains and grease while being gentle on hands.  It's manufactured and marketed by Jyothy Laboratories Ltd.",
     "Category": "Cleaning Supplies",
     "Subcategory": "Scouring Powders",
     "ProductLine": "Exo",
@@ -526,79 +529,78 @@
     "Features": [
       "Anti-bacterial",
       "Effective stain removal",
-      "Lemon Zing scent",
+      "Removes grease",
       "Gentle on hands",
-      "Powerful cleaning action"
+      "Lemon Zing scent"
     ],
     "Specification": {
       "Weight": "1 kg",
       "Scent": "Lemon Zing",
-      "Manufacturer": "Jyothy Laboratories Ltd"
+      "Manufacturer": "Jyothy Laboratories Ltd",
+      "EAN Code": "8902102164074"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:23:34.805541"
+    "Timestamp": "2025-05-31T18:53:07.101360"
   },
   {
     "Barcode": "8902102160632",
     "Product Name": "Maya Sarva Sugandhi Agarbathi Incense Sticks",
     "Brand": "Maya",
-    "Description": "Maya Sarva Sugandhi Agarbathi are incense sticks known for their pleasant fragrance.  These are traditionally used for religious ceremonies and to create a calming atmosphere.  Sold in a pack, suitable for home use or gifting.",
+    "Description": "Maya Sarva Sugandhi Agarbathi incense sticks offer a pleasant and fragrant aroma, ideal for religious ceremonies or personal use.  These incense sticks are known for their long-lasting burn and consistent fragrance.  They are packaged for convenient use and are a popular choice for those seeking a traditional Indian incense experience.",
     "Category": "Home & Living",
-    "Subcategory": "Incense & Aromatherapy",
+    "Subcategory": "Incense & Fragrances",
     "ProductLine": "Pooja (Religious)",
     "Quantity": 1,
     "Unit": "Pack",
     "Features": [
-      "Pleasant Sarva Sugandhi fragrance",
-      "Traditional incense sticks for religious ceremonies",
-      "Creates a calming and aromatic atmosphere",
-      "Suitable for home use",
-      "Economical option"
+      "Pleasant and fragrant aroma",
+      "Long-lasting burn time",
+      "Consistent fragrance throughout the burn",
+      "Traditional Indian incense",
+      "Suitable for religious ceremonies and personal use"
     ],
     "Specification": {
       "Price": "10 INR (as listed on VidyaVins)",
-      "Type": "Incense Sticks",
-      "Fragrance": "Sarva Sugandhi (mixed/general fragrance)",
-      "Packaging": "Pack (quantity unspecified)"
+      "Scent": "Sarva Sugandhi (mixed fragrance)",
+      "Packaging": "Likely a standard incense stick pack",
+      "Number of Sticks (Estimate)": "Based on typical incense stick packaging, likely between 10-20 sticks per pack"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:23:40.699262"
+    "Timestamp": "2025-05-31T18:53:13.343930"
   },
   {
     "Barcode": "8902102162049",
     "Product Name": "Maya Chardham Agarbatti Incense Sticks",
     "Brand": "Maya",
-    "Description": "Maya Chardham Agarbatti incense sticks offer a traditional and fragrant experience for religious ceremonies and personal use.  These incense sticks are designed to create a calming and spiritual atmosphere.",
+    "Description": "Maya Chardham Agarbatti incense sticks offer a traditional Indian fragrance experience.  These sticks are ideal for religious ceremonies, meditation, or simply creating a calming atmosphere.  The scent is described as a blend of traditional Indian spices and floral notes (specific scent profile unavailable from source).",
     "Category": "Religious Goods",
-    "Subcategory": "Incense & Puja Items",
+    "Subcategory": "Incense & Puja Supplies",
     "ProductLine": "Agarbatti",
-    "Quantity": 1,
-    "Unit": "Pack",
+    "Quantity": 50,
+    "Unit": "sticks",
     "Features": [
-      "Traditional Indian incense sticks",
-      "Fragrant aroma suitable for religious rituals",
-      "Creates a calming and spiritual atmosphere",
-      "Suitable for home use or religious ceremonies",
-      "50rs price point (as indicated on source website)"
+      "Traditional Indian fragrance",
+      "Suitable for religious ceremonies and meditation",
+      "Creates a calming and aromatic atmosphere",
+      "May be made with natural ingredients (requires further verification)",
+      "Affordable price point"
     ],
     "Specification": {
-      "Approximate Retail Price": "50 INR",
-      "Scent Profile": "Chardham (specific scent profile needs further clarification)",
-      "Quantity per Pack": "Unspecified (requires further clarification)",
-      "Stick Length": "Unspecified (requires further clarification)",
-      "Burning Time": "Unspecified (requires further clarification)"
+      "SKU": "8902102162049",
+      "Packaging": "Likely bundled sticks",
+      "Scent Profile": "Unspecified - requires further investigation"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:23:46.846297"
+    "Timestamp": "2025-05-31T18:53:18.980076"
   },
   {
     "Barcode": "8902102164043",
@@ -606,7 +608,7 @@
     "Brand": "Exo",
     "Description": "Exo Anti-Bacto Scrub provides a thorough and safe cleaning experience.  This product is designed for effective cleaning while being gentle on surfaces.",
     "Category": "Cleaning Supplies",
-    "Subcategory": "Scrubs",
+    "Subcategory": "Scrubs & Cleaners",
     "ProductLine": "Exo Anti-Bacto",
     "Quantity": 1,
     "Unit": "pouch",
@@ -624,7 +626,7 @@
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:23:51.882379"
+    "Timestamp": "2025-05-31T18:53:24.304769"
   },
   {
     "Barcode": "8902102127369",
@@ -633,7 +635,7 @@
     "Description": "Henko Stain Care Stain Busters Detergent Bar is a powerful cleaning solution designed to effectively remove stubborn stains. This pack contains three 80g bars, providing a total of 240g of detergent.  Ideal for laundry and various cleaning tasks.",
     "Category": "Cleaning Supplies",
     "Subcategory": "Laundry Detergents",
-    "ProductLine": "Stain Care",
+    "ProductLine": "Stain Busters",
     "Quantity": 240,
     "Unit": "g",
     "Features": [
@@ -655,7 +657,7 @@
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:23:57.393372"
+    "Timestamp": "2025-05-31T18:53:29.939293"
   },
   {
     "Barcode": "8902102125013",
@@ -670,21 +672,21 @@
     "Features": [
       "Effective stain removal",
       "Long-lasting cleaning power",
+      "Suitable for various fabrics",
       "Good quality",
-      "Reasonable price",
-      "Suitable for various fabrics"
+      "Reasonably priced"
     ],
     "Specification": {
       "Weight": "250 g",
       "Type": "Detergent Bar",
-      "Scent": "Unscented (Information not available in source)",
-      "Form": "Bar"
+      "Scent": "Unscented (assumed, needs verification)",
+      "Application": "Laundry"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:24:07.533124"
+    "Timestamp": "2025-05-31T18:53:40.583683"
   },
   {
     "Barcode": "8902102163916",
@@ -712,24 +714,24 @@
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:24:12.672924"
+    "Timestamp": "2025-05-31T18:53:46.006424"
   },
   {
     "Barcode": "8902102125020",
     "Product Name": "Henko Stain Care Detergent Bar",
     "Brand": "Henko",
-    "Description": "Henko Stain Care Detergent Bar is a 400g laundry bar designed for effective stain removal.  It features a long-lasting formula, making it economical and efficient for various washing needs.  This detergent bar is a convenient and powerful solution for tackling tough stains.",
-    "Category": "Household Cleaning",
+    "Description": "Henko Stain Care Detergent Bar is a 400g laundry bar designed for effective stain removal.  It features a long-lasting formula, making it economical and efficient for various fabrics.  This detergent bar is a convenient and powerful solution for tackling tough stains.",
+    "Category": "Household Cleaning Supplies",
     "Subcategory": "Laundry Detergents",
     "ProductLine": "Stain Care",
     "Quantity": 400.0,
     "Unit": "g",
     "Features": [
       "Effective Stain Removal",
-      "Long-Lasting Formula",
-      "Convenient Bar Format",
-      "Powerful Cleaning Action",
-      "Suitable for various fabrics (Further details needed for confirmation)"
+      "Long-lasting Formula",
+      "Convenient Bar Form",
+      "Suitable for various fabrics",
+      "Economical and Efficient"
     ],
     "Specification": {
       "Weight": "400g",
@@ -740,91 +742,91 @@
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:24:16.949528"
+    "Timestamp": "2025-05-31T18:53:51.439901"
   },
   {
     "Barcode": "8902102163770",
     "Product Name": "Pril Dishwash Bar Lime Vinegar",
     "Brand": "Pril",
-    "Description": "Pril Dishwash Bar Lime Vinegar is a cleaning bar designed for effective dishwashing.  It combines the cleaning power of a traditional dishwashing bar with the added benefit of lime vinegar for enhanced grease cutting and a fresh scent.  Suitable for handwashing dishes.",
+    "Description": "Pril Dishwash Bar Lime Vinegar is a dishwashing bar that effectively cleans dishes.  It features a lime vinegar scent and is manufactured in India.",
     "Category": "Household Cleaning",
-    "Subcategory": "Dishwashing Products",
-    "ProductLine": "Dishwashing Bars",
-    "Quantity": 360,
+    "Subcategory": "Dishwashing",
+    "ProductLine": "Dishwash Bars",
+    "Quantity": 360.0,
     "Unit": "g",
     "Features": [
       "Effective grease removal",
-      "Lime vinegar for enhanced cleaning",
-      "Fresh scent",
-      "Suitable for handwashing dishes",
-      "Traditional bar format"
+      "Lime vinegar scent",
+      "Convenient bar format",
+      "Made in India",
+      "Suitable for hand washing dishes"
     ],
     "Specification": {
       "EAN Code": "8902102163770",
-      "Country of Origin": "India",
-      "Weight": "360g"
+      "Weight": "360g",
+      "Scent": "Lime Vinegar",
+      "Country of Origin": "India"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:24:21.221792"
+    "Timestamp": "2025-05-31T18:53:57.025948"
   },
   {
     "Barcode": "8902102126256",
-    "Product Name": "Henko Stain Care 500g",
+    "Product Name": "Henko Stain Care Laundry Detergent",
     "Brand": "Henko",
-    "Description": "SKU: 8902102126256 Category: Laundry Detergent. Share: Close. Reviews. There ... Only logged in customers who have purchased this product may leave a review.",
-    "Category": "Household",
-    "Subcategory": "Laundry",
-    "ProductLine": "Henko Laundry Products",
+    "Description": "Henko Stain Care is a laundry detergent designed to effectively remove stains from clothing.  It's formulated for general laundry use and comes in a 500g package.",
+    "Category": "Laundry",
+    "Subcategory": "Detergent",
+    "ProductLine": "Stain Care",
     "Quantity": 500.0,
     "Unit": "g",
     "Features": [
-      "Effective cleaning",
-      "Easy to use",
-      "Value for money"
+      "Effective stain removal",
+      "Suitable for general laundry use",
+      "500g package size",
+      "Designed for machine and/or hand washing (Further information needed to confirm)",
+      "Pleasant scent (Further information needed to confirm)"
     ],
     "Specification": {
-      "Brand": "Henko",
-      "Country of Origin": "India",
-      "Barcode Type": "13-digit barcode",
-      "Weight/Volume": "500.0 g",
-      "Net Quantity": "500.0 g"
+      "Weight": "500g",
+      "Packaging": "Bag/Container (Further information needed to confirm)"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
-    "Data Source": "Intelligent Processing - Google Search",
-    "Timestamp": "2025-05-31T04:24:25.754692"
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:54:01.382178"
   },
   {
     "Barcode": "8902102163909",
-    "Product Name": "Pril Lime Dishwash Liquid Tube",
+    "Product Name": "Pril Lime Dishwash Tube",
     "Brand": "Pril",
-    "Description": "Pril Lime Dishwash Liquid is a concentrated formula designed for effective cleaning of dishes.  It features a refreshing lime scent and is packaged in a convenient 500g tube.  This product is hygienically packed to ensure purity and quality.",
+    "Description": "Pril Lime Dishwash Tube is a 500g tube of dishwashing liquid.  It's formulated with lime for a fresh scent and effective cleaning.  The product is hygienically packed to ensure purity.",
     "Category": "Household Cleaning",
     "Subcategory": "Dishwashing Liquid",
     "ProductLine": "Pril Dishwashing Liquids",
     "Quantity": 500.0,
     "Unit": "g",
     "Features": [
+      "Lime scent",
       "Effective grease removal",
-      "Refreshing lime scent",
-      "Concentrated formula for efficient cleaning",
       "Hygienically packed",
-      "Convenient tube packaging"
+      "500g tube for convenient use",
+      "Suitable for hand washing dishes"
     ],
     "Specification": {
       "Weight": "500g",
-      "Scent": "Lime",
-      "Packaging": "Tube"
+      "Packaging": "Tube",
+      "Scent": "Lime"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:24:31.098787"
+    "Timestamp": "2025-05-31T18:54:06.796043"
   },
   {
     "Barcode": "8902102126409",
@@ -839,7 +841,7 @@
     "Features": [
       "Effective stain removal",
       "Suitable for various fabrics",
-      "Powder detergent formula",
+      "Powder detergent formulation",
       "Available in 1kg packaging"
     ],
     "Specification": {
@@ -851,42 +853,41 @@
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:24:36.138274"
+    "Timestamp": "2025-05-31T18:54:12.531928"
   },
   {
     "Barcode": "8902102125495",
     "Product Name": "Henko Stain Care Laundry Detergent",
     "Brand": "Henko",
-    "Description": "Henko Stain Care Laundry Detergent is a 3kg pack designed to effectively remove stains from clothing.  It's a laundry detergent suitable for various fabrics (specific fabric compatibility should be checked on the product packaging).  This product is available for purchase online.",
-    "Category": "Laundry",
-    "Subcategory": "Detergent",
+    "Description": "Henko Stain Care Laundry Detergent is a 3kg pack designed to effectively remove stains from clothing.  It's a laundry detergent suitable for various fabrics (further details on fabric compatibility would need to be sourced from the manufacturer). This product is available for purchase online.",
+    "Category": "Laundry & Cleaning",
+    "Subcategory": "Laundry Detergent",
     "ProductLine": "Stain Care",
     "Quantity": 3.0,
     "Unit": "kg",
     "Features": [
       "Effective stain removal",
-      "Suitable for various fabrics (check packaging for specifics)",
+      "Suitable for various fabrics (specific fabric types need verification)",
       "3kg large capacity",
-      "Convenient packaging",
-      "Available online"
+      "Convenient packaging"
     ],
     "Specification": {
       "Weight": "3 kg",
-      "Type": "Laundry Detergent",
-      "Stain Removal": "Yes",
-      "Packaging": "Bag/Container (Further details require product packaging inspection)"
+      "Packaging": "Bag/Container (requires verification from product image or manufacturer)",
+      "Scent": "Unspecified (requires verification from product details)",
+      "Ingredients": "Unspecified (requires verification from product packaging or manufacturer)"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:24:46.234321"
+    "Timestamp": "2025-05-31T18:54:22.159177"
   },
   {
     "Barcode": "8902102127819",
     "Product Name": "Henko Stain Care Detergent Powder",
     "Brand": "Henko",
-    "Description": "Henko Stain Care Detergent Powder is a 4kg pack of laundry detergent designed for effective stain removal.  It's formulated with a focus on purity and is hygienically packed to maintain quality.  This detergent is suitable for various fabrics and washing machines.",
+    "Description": "Henko Stain Care Detergent Powder is a 4kg pack of laundry detergent designed for effective stain removal.  It's formulated with a focus on purity and is hygienically packed to maintain quality.  Suitable for various fabrics and washing machines.",
     "Category": "Household Cleaning",
     "Subcategory": "Laundry Detergents",
     "ProductLine": "Stain Care",
@@ -895,8 +896,8 @@
     "Features": [
       "Effective stain removal",
       "Hygienically packed",
-      "Suitable for various fabrics",
       "Pure ingredients",
+      "Suitable for various fabrics",
       "4kg large quantity for cost-effectiveness"
     ],
     "Specification": {
@@ -908,13 +909,13 @@
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:24:50.435661"
+    "Timestamp": "2025-05-31T18:54:26.358415"
   },
   {
     "Barcode": "8902102125501",
     "Product Name": "Henko Detergent Powder Stain Care",
     "Brand": "Henko",
-    "Description": "Henko Detergent Powder Stain Care is a 5kg pouch of laundry detergent designed to effectively remove stains and provide hygienic cleaning.  It offers a noticeable difference in cleanliness, visible, and noticeable in both scent and feel of the laundry.",
+    "Description": "Henko Detergent Powder Stain Care is a 5kg pouch of laundry detergent designed to effectively remove stains and provide hygienic cleaning.  It offers a noticeable difference in cleanliness, visible, touchable, and even noticeable by scent.",
     "Category": "Household Cleaning",
     "Subcategory": "Laundry Detergents",
     "ProductLine": "Stain Care",
@@ -923,22 +924,21 @@
     "Features": [
       "Effective stain removal",
       "Provides hygienic cleaning",
-      "Noticeable difference in cleanliness",
-      "Pleasant scent",
-      "Leaves laundry feeling soft"
+      "Noticeable cleanliness (visible, touchable, and fragrant)",
+      "Oxygen-based formula (implied)",
+      "Large 5kg pouch for cost-effectiveness"
     ],
     "Specification": {
-      "Weight": "5 kg",
-      "Form": "Powder",
-      "Type": "Detergent",
-      "Scent": "Unspecified",
-      "Country of Origin": "India"
+      "EAN Code": "8902102125501",
+      "Country of Origin": "India",
+      "Packaging": "5kg Pouch",
+      "Type": "Powder"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:24:55.658354"
+    "Timestamp": "2025-05-31T18:54:32.396581"
   },
   {
     "Barcode": "8902102127475",
@@ -966,7 +966,7 @@
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:25:01.186967"
+    "Timestamp": "2025-05-31T18:54:37.928627"
   },
   {
     "Barcode": "8902102127499",
@@ -979,7 +979,7 @@
     "Quantity": 2.0,
     "Unit": "kg",
     "Features": [
-      "Specifically formulated for front-load washing machines",
+      "Specifically designed for front-load washing machines",
       "Effective cleaning power",
       "Gentle on fabrics",
       "Hygienically packed",
@@ -994,43 +994,43 @@
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:25:11.115923"
+    "Timestamp": "2025-05-31T18:54:47.032795"
   },
   {
     "Barcode": "8902102163725",
-    "Product Name": "Vim Tropical Lemon Dishwash Liquid",
-    "Brand": "Vim",
-    "Description": "Vim Tropical Lemon Dishwash Liquid is a powerful cleaning solution formulated to effectively remove grease and dirt from dishes.  Its tropical lemon scent leaves dishes sparkling clean and smelling fresh.  This particular bottle contains 500ml of liquid.",
+    "Product Name": "Pril Perfect Lime Dishwash Liquid",
+    "Brand": "Pril",
+    "Description": "Pril Perfect Lime Dishwash Liquid is a powerful yet gentle dishwashing liquid designed for effective cleaning and grease removal.  Its lime scent leaves dishes sparkling clean and fresh-smelling.  This formula is suitable for hand washing dishes and is known for its effectiveness even in cold water.",
     "Category": "Household Cleaning",
-    "Subcategory": "Dishwashing Liquid",
-    "ProductLine": "Vim Dishwash Liquids",
-    "Quantity": 500.0,
+    "Subcategory": "Dishwashing Liquids",
+    "ProductLine": "Pril Perfect",
+    "Quantity": 105.0,
     "Unit": "ml",
     "Features": [
-      "Powerful grease-cutting formula",
-      "Refreshing tropical lemon scent",
-      "Leaves dishes sparkling clean",
-      "Effective on various types of dishes and cookware",
-      "Convenient 500ml bottle size"
+      "Effective grease removal",
+      "Refreshing lime scent",
+      "Suitable for hand washing",
+      "Works well in cold water",
+      "Leaves dishes sparkling clean"
     ],
     "Specification": {
-      "Volume": "500ml",
-      "Scent": "Tropical Lemon",
-      "Type": "Dishwashing Liquid"
+      "Volume": "105 ml",
+      "Scent": "Lime",
+      "Application": "Hand washing"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:25:16.663574"
+    "Timestamp": "2025-05-31T18:54:52.572237"
   },
   {
     "Barcode": "8902102127482",
     "Product Name": "Henko Matic Lintelligent Detergent Powder",
     "Brand": "Henko",
-    "Description": "Henko Matic Lintelligent Detergent Powder is a powerful laundry detergent designed for top-load washing machines.  It effectively dissolves tough stains such as mud, ink, oil, and chocolate without damaging your clothes. This detergent offers a superior cleaning experience, leaving your clothes fresh and clean.",
-    "Category": "Household Cleaning",
-    "Subcategory": "Laundry Detergent",
+    "Description": "Henko Matic Lintelligent Detergent Powder is a powerful laundry detergent designed for top-load washing machines.  It effectively dissolves tough stains such as mud, ink, oil, and chocolate without damaging your clothes. This detergent is formulated for efficient cleaning and is suitable for various fabrics.",
+    "Category": "Laundry",
+    "Subcategory": "Detergent",
     "ProductLine": "Matic Lintelligent",
     "Quantity": 1,
     "Unit": "kg",
@@ -1038,26 +1038,27 @@
       "Effective stain removal (mud, ink, oil, chocolate)",
       "Gentle on clothes",
       "Suitable for top-load washing machines",
-      "Powerful cleaning action",
-      "Leaves clothes fresh and clean"
+      "Fast dissolving formula",
+      "Efficient cleaning"
     ],
     "Specification": {
-      "EAN Code": "8902102127482",
-      "Weight": "1 kg"
+      "Weight": "1 kg",
+      "Type": "Powder",
+      "Washing Machine Type": "Top-Load"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:25:22.178576"
+    "Timestamp": "2025-05-31T18:54:58.100614"
   },
   {
     "Barcode": "8902102126553",
     "Product Name": "Henko Matic Lintelligent Top Load Detergent Powder",
     "Brand": "Henko",
-    "Description": "Henko Matic Lintelligent Top Load Detergent Powder is a powerful yet gentle detergent designed for top-load washing machines.  It effectively removes tough stains such as mud, ink, oil, and chocolate without damaging your clothes. This 2kg pack provides a convenient and economical solution for your laundry needs.",
-    "Category": "Laundry",
-    "Subcategory": "Detergent",
+    "Description": "Henko Matic Lintelligent Top Load Detergent Powder is a powerful cleaning solution designed for top-load washing machines.  It effectively removes tough stains such as mud, ink, oil, and chocolate, while being gentle on clothes. This detergent is formulated for efficient cleaning and is suitable for regular laundry needs.",
+    "Category": "Laundry & Cleaning",
+    "Subcategory": "Laundry Detergent",
     "ProductLine": "Matic Lintelligent",
     "Quantity": 2.0,
     "Unit": "kg",
@@ -1065,29 +1066,28 @@
       "Effective stain removal (mud, ink, oil, chocolate)",
       "Gentle on clothes",
       "Suitable for top-load washing machines",
-      "Economical 2kg pack size",
-      "Powerful cleaning action"
+      "Powerful cleaning action",
+      "Dissolves quickly"
     ],
     "Specification": {
       "Weight": "2 kg",
       "Type": "Powder",
-      "Washing Machine Type": "Top Load",
-      "EAN Code": "8902102126553"
+      "Washing Machine Type": "Top Load"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:25:30.370418"
+    "Timestamp": "2025-05-31T18:55:03.520888"
   },
   {
     "Barcode": "8902102163688",
     "Product Name": "Pril Lime Grease Fighter Dishwash Gel",
     "Brand": "Pril",
-    "Description": "Pril Lime Grease Fighter Dishwash Gel effectively tackles grease and grime, leaving dishes sparkling clean.  This 225ml bottle provides a convenient and efficient way to clean your dishes.  Formulated with a refreshing lime scent, it leaves your dishes smelling clean and fresh.",
+    "Description": "Pril Lime Grease Fighter Dishwash Gel effectively tackles grease and grime, leaving dishes sparkling clean.  This 225ml bottle provides a convenient and efficient way to clean your dishes.  Formulated with a refreshing lime scent, it leaves your kitchen smelling fresh and clean.",
     "Category": "Household Cleaning",
-    "Subcategory": "Dishwashing",
-    "ProductLine": "Pril Dishwashing Gel",
+    "Subcategory": "Dishwashing Liquids",
+    "ProductLine": "Pril Grease Fighter",
     "Quantity": 225.0,
     "Unit": "ml",
     "Features": [
@@ -1107,34 +1107,1113 @@
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:25:37.928823"
+    "Timestamp": "2025-05-31T18:55:09.364537"
   },
   {
     "Barcode": "8902102163695",
     "Product Name": "Pril Dishwash Liquid Active 2X Lime",
     "Brand": "Pril",
-    "Description": "Pril Dishwash Liquid Active 2X Lime is a dishwashing liquid designed for effective and gentle cleaning.  Its formula is enhanced for a 2X cleaning power, and the lime scent leaves dishes sparkling and fresh.",
+    "Description": "Pril Dishwash Liquid Active 2X Lime is a dishwashing liquid designed for effective cleaning and gentle hand care.  Its 2X formula promises enhanced cleaning power, while the lime scent leaves dishes fresh and sparkling.  Suitable for everyday use.",
     "Category": "Household Cleaning",
     "Subcategory": "Dishwashing Liquids",
-    "ProductLine": "Pril Active",
+    "ProductLine": "Active",
     "Quantity": 425.0,
     "Unit": "ml",
     "Features": [
-      "2X cleaning power",
-      "Lime scent",
+      "Effective cleaning power (2X formula)",
       "Gentle on hands",
-      "Effective grease removal",
+      "Pleasant lime scent",
+      "Easy to use",
       "Leaves dishes sparkling"
     ],
     "Specification": {
       "EAN Code": "8902102163695",
+      "Scent": "Lime",
+      "Formula": "Active 2X",
+      "Volume": "425 ml"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:55:13.973482"
+  },
+  {
+    "Barcode": "8902102127406",
+    "Product Name": "Henko Matic Detergent Powder",
+    "Brand": "Henko",
+    "Description": "Henko Matic Detergent Powder is a 6kg pack designed for top-load washing machines.  It's formulated to deliver bright and fresh clothes. The product is hygienically packed, ensuring purity.",
+    "Category": "Laundry",
+    "Subcategory": "Detergent",
+    "ProductLine": "Matic",
+    "Quantity": 6.0,
+    "Unit": "kg",
+    "Features": [
+      "Suitable for top-load washing machines",
+      "Provides bright and fresh clothes",
+      "Hygienically packed",
+      "Pure and high-quality ingredients",
+      "6kg large pack for cost-effectiveness"
+    ],
+    "Specification": {
+      "Weight": "6 kg",
+      "Type": "Powder",
+      "Washing Machine Type": "Top-Load"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:55:18.990739"
+  },
+  {
+    "Barcode": "8902102163718",
+    "Product Name": "Pril Lime Grease Fighter Dishwash Gel",
+    "Brand": "Pril",
+    "Description": "Pril Lime Grease Fighter Dishwash Gel effectively tackles grease and grime, leaving dishes sparkling clean.  This 750ml bottle provides a long-lasting supply for your dishwashing needs.  Formulated with a refreshing lime scent, it offers a pleasant cleaning experience.",
+    "Category": "Household Cleaning",
+    "Subcategory": "Dishwashing Liquid",
+    "ProductLine": "Pril Grease Fighter",
+    "Quantity": 750.0,
+    "Unit": "ml",
+    "Features": [
+      "Effective grease-fighting formula",
+      "Refreshing lime scent",
+      "Leaves dishes sparkling clean",
+      "Hygienically packed",
+      "750ml bottle for long-lasting use"
+    ],
+    "Specification": {
+      "Volume": "750 ml",
+      "Scent": "Lime",
+      "Type": "Gel",
+      "Country of Origin": "India"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:55:25.028326"
+  },
+  {
+    "Barcode": "8902102163701",
+    "Product Name": "Pril Lime Grease Fighter Dishwash Gel",
+    "Brand": "Pril",
+    "Description": "Pril Lime Grease Fighter Dishwash Gel is a powerful dishwashing liquid designed to effectively cut through grease and grime.  Its lime scent leaves dishes sparkling clean and fresh. This 2-liter refill is an economical choice for frequent dishwashing.",
+    "Category": "Household Cleaning",
+    "Subcategory": "Dishwashing Liquids",
+    "ProductLine": "Pril Grease Fighter",
+    "Quantity": 2.0,
+    "Unit": "liters",
+    "Features": [
+      "Powerful grease-cutting formula",
+      "Refreshing lime scent",
+      "Economical 2-liter refill size",
+      "Effective on tough, baked-on food",
+      "Leaves dishes sparkling clean"
+    ],
+    "Specification": {
+      "Volume": "2 Liters",
+      "Scent": "Lime",
+      "Type": "Dishwash Gel",
+      "Country of Origin": "India"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:55:30.527594"
+  },
+  {
+    "Barcode": "8902102127123",
+    "Product Name": "Henko Matic Front Load Liquid Detergent",
+    "Brand": "Henko",
+    "Description": "Henko Matic Front Load Liquid Detergent is a specially formulated detergent designed for front-load washing machines.  It features Nano Fibre Lock Technology for effective cleaning and 999 germ protection.  Use 1.5 caps for regular loads and 2.5 caps for heavily soiled loads.",
+    "Category": "Laundry",
+    "Subcategory": "Laundry Detergent",
+    "ProductLine": "Matic",
+    "Quantity": 1,
+    "Unit": "bottle",
+    "Features": [
+      "Nano Fibre Lock Technology",
+      "999 Germ Protection",
+      "Suitable for Front Load Washing Machines",
+      "Effective Cleaning",
+      "Concentrated Formula"
+    ],
+    "Specification": {
+      "Volume": "500 ml",
+      "Type": "Liquid",
+      "Load Type": "Front Load"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:55:35.900114"
+  },
+  {
+    "Barcode": "8902102127130",
+    "Product Name": "Henko Matic Front Load Liquid Detergent",
+    "Brand": "Buy Shop Henko",
+    "Description": "Henko Matic Front Load Liquid Detergent is a 1-liter bottle of laundry detergent specifically designed for front-load washing machines.  It's formulated for effective cleaning and is hygienically packed to ensure purity.  Made in India.",
+    "Category": "Household Cleaning",
+    "Subcategory": "Laundry Detergents",
+    "ProductLine": "Henko Matic",
+    "Quantity": 1.0,
+    "Unit": "liter",
+    "Features": [
+      "Specifically designed for front-load washing machines",
+      "Effective cleaning power",
+      "Hygienically packed",
+      "1-liter bottle for convenient use",
+      "Made in India"
+    ],
+    "Specification": {
+      "Volume": "1 Liter",
+      "Type": "Liquid",
+      "Washing Machine Type": "Front Load",
+      "Country of Origin": "India"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:55:41.518170"
+  },
+  {
+    "Barcode": "8902102163800",
+    "Product Name": "Pril Dishwash Liquid Gel Kraft Perfect Active 2X",
+    "Brand": "Pril",
+    "Description": "Pril Dishwash Liquid Gel Kraft Perfect Active 2X is a powerful dishwashing liquid designed to effectively cut through tough stains and leave dishes sparkling clean.  Its formula contains 2X active molecules for superior cleaning power and a pleasant, fresh fragrance.",
+    "Category": "Household Cleaning",
+    "Subcategory": "Dishwashing Liquids",
+    "ProductLine": "Kraft Perfect Active",
+    "Quantity": 425.0,
+    "Unit": "ml",
+    "Features": [
+      "Powerful stain removal with 2X active molecules",
+      "Leaves dishes sparkling clean",
+      "Pleasant and fresh fragrance",
+      "Effective on tough, baked-on food",
+      "Suitable for hand washing dishes"
+    ],
+    "Specification": {
       "Volume": "425 ml",
+      "Type": "Liquid Gel",
+      "Fragrance": "Fresh"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:55:50.836065"
+  },
+  {
+    "Barcode": "8902102163824",
+    "Product Name": "Pril Kraft Mint Dishwashing Liquid",
+    "Brand": "Pril",
+    "Description": "Pril Kraft Mint Dishwashing Liquid is a powerful yet gentle cleaning solution formulated to effectively remove grease and grime from dishes.  Its refreshing mint scent leaves dishes sparkling clean and smelling fresh.  This particular bottle contains 750ml of liquid.",
+    "Category": "Cleaning Supplies",
+    "Subcategory": "Dishwashing Liquid",
+    "ProductLine": "Pril Kraft",
+    "Quantity": 750.0,
+    "Unit": "ml",
+    "Features": [
+      "Effective grease removal",
+      "Refreshing mint scent",
+      "Gentle on hands",
+      "Leaves dishes sparkling clean",
+      "750ml bottle size"
+    ],
+    "Specification": {
+      "Volume": "750 ml",
+      "Scent": "Mint",
+      "Type": "Dishwashing Liquid",
+      "Packaging": "Bottle"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:55:56.571001"
+  },
+  {
+    "Barcode": "8902102163794",
+    "Product Name": "Pril Tamarind Shine Specialist Dishwash Gel",
+    "Brand": "Pril",
+    "Description": "Pril Tamarind Shine Specialist Dishwash Gel is a 225ml dishwashing liquid designed for effective cleaning and a sparkling shine.  It's formulated with tamarind extract, known for its cleaning properties. The product is hygienically packed and ensures a pure cleaning experience.",
+    "Category": "Household Cleaning",
+    "Subcategory": "Dishwashing Liquids",
+    "ProductLine": "Pril Specialist",
+    "Quantity": 225.0,
+    "Unit": "ml",
+    "Features": [
+      "Effective cleaning power",
+      "Tamarind extract for enhanced shine",
+      "Hygienically packed",
+      "Pure and concentrated formula",
+      "Leaves dishes sparkling clean"
+    ],
+    "Specification": {
+      "Volume": "225 ml",
+      "Country of Origin": "India",
+      "Scent": "Tamarind"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:56:00.973338"
+  },
+  {
+    "Barcode": "8902102127185",
+    "Product Name": "Henko Matic 2L Front Load Liquid Detergent",
+    "Brand": "Henko",
+    "Description": "Henko Matic 2L Front Load Liquid Detergent is a high-quality laundry detergent specifically formulated for front-load washing machines.  It's designed for effective cleaning and is packaged hygienically to maintain purity.",
+    "Category": "Household Cleaning",
+    "Subcategory": "Laundry Detergents",
+    "ProductLine": "Matic",
+    "Quantity": 2.0,
+    "Unit": "L",
+    "Features": [
+      "Specifically formulated for front-load washing machines",
+      "Effective cleaning power",
+      "Hygienically packed to maintain purity",
+      "2 Liter capacity for multiple washes",
+      "Liquid detergent for easy dispensing"
+    ],
+    "Specification": {
+      "Volume": "2 Liters",
+      "Type": "Liquid",
+      "Washing Machine Type": "Front Load"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:56:05.535722"
+  },
+  {
+    "Barcode": "8902102163817",
+    "Product Name": "Pril Tamarind Shine Specialist Dishwash Gel",
+    "Brand": "Pril",
+    "Description": "Pril Tamarind Shine Specialist Dishwash Gel is a 425ml dishwashing liquid designed for effective cleaning and a sparkling shine.  It's formulated with tamarind extract, known for its cleaning properties. The product is hygienically packed to ensure purity.",
+    "Category": "Household Cleaning",
+    "Subcategory": "Dishwashing Liquid",
+    "ProductLine": "Pril Specialist",
+    "Quantity": 425.0,
+    "Unit": "ml",
+    "Features": [
+      "Effective cleaning power",
+      "Leaves dishes sparkling and shiny",
+      "Formulated with tamarind extract",
+      "Hygienically packed",
+      "Pleasant scent (assumed, needs verification)"
+    ],
+    "Specification": {
+      "Volume": "425 ml",
+      "Country of Origin": "India",
+      "Packaging": "Bottle"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:56:09.880785"
+  },
+  {
+    "Barcode": "8902102163831",
+    "Product Name": "PRIL Tamarind Paste",
+    "Brand": "PRIL",
+    "Description": "PRIL Tamarind Paste is a concentrated paste made from tamarind fruit. It's a versatile ingredient used in various cuisines for its tangy and sweet flavor profile.  It can be used to add a unique sourness to curries, sauces, marinades, and drinks.",
+    "Category": "Food",
+    "Subcategory": "Condiments & Sauces",
+    "ProductLine": "Tamarind Products",
+    "Quantity": 750,
+    "Unit": "grams",
+    "Features": [
+      "Tangy and sweet flavor",
+      "Versatile culinary ingredient",
+      "Concentrated paste for maximum flavor",
+      "Suitable for various cuisines",
+      "Made from tamarind fruit"
+    ],
+    "Specification": {
+      "Weight": "750g",
+      "Packaging": "Likely jar or pouch (requires image verification)",
+      "Ingredients": "Requires further investigation from OpenFoodFacts or product packaging",
+      "Nutritional Information": "Requires further investigation from OpenFoodFacts or product packaging"
+    },
+    "Product Image": "https://images.openfoodfacts.org/images/products/890/210/216/3831/front_en.3.400.jpg",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:56:14.388156"
+  },
+  {
+    "Barcode": "8902102127147",
+    "Product Name": "Henko Matic Top Load Liquid Detergent",
+    "Brand": "Henko",
+    "Description": "Henko Matic Top Load Liquid Detergent is a high-performance laundry detergent designed for top-load washing machines.  It features Nano Fibre Lock Technology for effective stain removal and 999 germ protection.  Use 1.5 caps for regular loads and 2.5 caps for heavily soiled loads.",
+    "Category": "Laundry",
+    "Subcategory": "Laundry Detergent",
+    "ProductLine": "Matic",
+    "Quantity": 500.0,
+    "Unit": "ml",
+    "Features": [
+      "Nano Fibre Lock Technology for superior stain removal",
+      "999 Germ Protection",
+      "Suitable for top-load washing machines",
+      "Effective on heavily soiled clothes",
+      "Concentrated formula for efficient cleaning"
+    ],
+    "Specification": {
+      "Volume": "500 ml",
+      "Usage": "1.5 caps for regular wash, 2.5 caps for heavy wash",
+      "Washing Machine Type": "Top-Load"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:56:23.630329"
+  },
+  {
+    "Barcode": "8902102127154",
+    "Product Name": "Henko Matic Top Load Liquid Detergent",
+    "Brand": "Henko",
+    "Description": "Henko Matic Top Load Liquid Detergent is a 1-liter bottle of laundry detergent specifically designed for top-load washing machines.  It's formulated for effective cleaning and is hygienically packed to ensure purity. ",
+    "Category": "Household Cleaning",
+    "Subcategory": "Laundry Detergent",
+    "ProductLine": "Matic",
+    "Quantity": 1.0,
+    "Unit": "liter",
+    "Features": [
+      "Specifically formulated for top-load washing machines",
+      "Effective cleaning power",
+      "Hygienically packed for purity",
+      "1-liter bottle for convenient use",
+      "Liquid detergent for easy dispensing"
+    ],
+    "Specification": {
+      "Volume": "1 Liter",
+      "Type": "Liquid",
+      "Washing Machine Type": "Top-Load"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:56:29.235900"
+  },
+  {
+    "Barcode": "8902102163862",
+    "Product Name": "Pril Dishwashing Liquid Gel",
+    "Brand": "Pril",
+    "Description": "Pril Dishwashing Liquid Gel effectively cleans dishes, removing grease while being gentle on surfaces.  Its unique formulation ensures it doesn't damage delicate items.  Available in a refreshing lime scent (as indicated by the provided URL).",
+    "Category": "Household Cleaning",
+    "Subcategory": "Dishwashing Liquids",
+    "ProductLine": "Dishwashing Liquids",
+    "Quantity": 3,
+    "Unit": "Liters",
+    "Features": [
+      "Effective grease removal",
+      "Gentle on surfaces",
+      "Refreshing lime scent",
+      "Concentrated formula (implied)",
+      "Easy to use"
+    ],
+    "Specification": {
+      "EAN Code": "8902102163862",
+      "Volume": "3 Liters",
       "Scent": "Lime"
     },
     "Product Image": "",
     "Product Ingredient Image": "",
     "Nutrition Image": "",
     "Data Source": "AI Enhanced",
-    "Timestamp": "2025-05-31T04:25:43.273116"
+    "Timestamp": "2025-05-31T18:56:34.663527"
+  },
+  {
+    "Barcode": "8902102163855",
+    "Product Name": "Pril Lime Grease Fighter Dishwash Gel",
+    "Brand": "Pril",
+    "Description": "Pril Lime Grease Fighter Dishwash Gel is a powerful dishwashing liquid designed to effectively cut through grease and grime.  It's formulated with a refreshing lime scent and comes in a convenient 1.5-liter bottle.  The product is hygienically packed to ensure purity and quality.",
+    "Category": "Household Cleaning",
+    "Subcategory": "Dishwashing Liquid",
+    "ProductLine": "Pril Grease Fighter",
+    "Quantity": 1.5,
+    "Unit": "L",
+    "Features": [
+      "Effective grease-fighting formula",
+      "Refreshing lime scent",
+      "Hygienically packed",
+      "Large 1.5-liter bottle for value",
+      "Suitable for handwashing dishes"
+    ],
+    "Specification": {
+      "Volume": "1.5 Liters",
+      "Scent": "Lime",
+      "Packaging": "Bottle",
+      "Country of Origin": "India"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:56:40.193020"
+  },
+  {
+    "Barcode": "8902102127192",
+    "Product Name": "Best Henko Matic 2L Liquid Detergent - Fresh & Clean Laundry",
+    "Brand": "Best",
+    "Description": "Best Henko Matic 2L Liquid Detergent provides a fresh and clean laundry experience.  It's formulated for use in top-load washing machines and is packaged hygienically to ensure purity.  The detergent is designed to effectively clean clothes while maintaining their vibrancy.",
+    "Category": "Laundry & Cleaning",
+    "Subcategory": "Laundry Detergents",
+    "ProductLine": "Henko Matic",
+    "Quantity": 2.0,
+    "Unit": "L",
+    "Features": [
+      "Fresh and clean scent",
+      "Suitable for top-load washing machines",
+      "Hygienically packed for purity",
+      "Effective cleaning power",
+      "Maintains fabric vibrancy"
+    ],
+    "Specification": {
+      "Volume": "2 Liters",
+      "Type": "Liquid Detergent",
+      "Washing Machine Type": "Top-Load"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:56:46.337153"
+  },
+  {
+    "Barcode": "8902102300724",
+    "Product Name": "UJALA IDD Detergent Cake",
+    "Brand": "UJALA",
+    "Description": "UJALA IDD Detergent Cake is a laundry detergent in cake form, designed for effective cleaning of clothes.  It's a popular choice for its cleaning power and affordability.  This specific product weighs 150 grams.",
+    "Category": "Household Cleaning",
+    "Subcategory": "Laundry Detergents",
+    "ProductLine": "Detergent Cakes",
+    "Quantity": 150.0,
+    "Unit": "g",
+    "Features": [
+      "Effective cleaning power",
+      "Compact and convenient cake form",
+      "Economical and affordable",
+      "Suitable for hand washing and machine washing (likely, needs verification)",
+      "Traditional laundry detergent option"
+    ],
+    "Specification": {
+      "Weight": "150g",
+      "Form": "Cake",
+      "Type": "Laundry Detergent"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:56:51.866200"
+  },
+  {
+    "Barcode": "8902102127574",
+    "Product Name": "Henko Matic Front Load Detergent Liquid",
+    "Brand": "Henko",
+    "Description": "Henko Matic Front Load Detergent Liquid is a 1L pouch of laundry detergent specifically designed for front-load washing machines.  It's formulated to effectively clean clothes while being gentle on fabrics.  More details on specific formulation and ingredients are not available from the provided source.",
+    "Category": "Household Cleaning Supplies",
+    "Subcategory": "Laundry Detergents",
+    "ProductLine": "Matic",
+    "Quantity": 1.0,
+    "Unit": "L",
+    "Features": [
+      "Designed for front-load washing machines",
+      "Effective cleaning power",
+      "Gentle on fabrics",
+      "1 Liter pouch packaging",
+      "Liquid detergent formulation"
+    ],
+    "Specification": {
+      "Volume": "1 Liter",
+      "Packaging": "Pouch",
+      "Washing Machine Type": "Front Load"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:56:57.804838"
+  },
+  {
+    "Barcode": "8902102300687",
+    "Product Name": "Ujala Detergent, 500g",
+    "Brand": "Ujala",
+    "Description": "Ujala Detergent is a popular laundry detergent known for its effective cleaning power and brightener properties.  This 500g pack provides a convenient and economical way to keep your clothes clean and vibrant.",
+    "Category": "Household Cleaning Supplies",
+    "Subcategory": "Laundry Detergents",
+    "ProductLine": "Detergents",
+    "Quantity": 500.0,
+    "Unit": "g",
+    "Features": [
+      "Effective stain removal",
+      "Brightening properties for vibrant colors",
+      "Suitable for hand and machine washing",
+      "Pleasant fragrance",
+      "Economical 500g packaging"
+    ],
+    "Specification": {
+      "Package Dimensions": "18.2 x 13.3 x 2.5 cm",
+      "Weight": "500 g",
+      "ASIN": "B07211KQPD"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:57:03.846663"
+  },
+  {
+    "Barcode": "8902102127581",
+    "Product Name": "Henko Matic Top Load Liquid Detergent",
+    "Brand": "Order",
+    "Description": "Henko Matic Top Load Liquid Detergent is a powerful cleaning detergent designed for top-load washing machines.  It's hygienically packed and comes in a 1-liter bottle.  The product is made in India.",
+    "Category": "Household Cleaning",
+    "Subcategory": "Laundry Detergents",
+    "ProductLine": "Henko Matic",
+    "Quantity": 1.0,
+    "Unit": "liter",
+    "Features": [
+      "Powerful cleaning action",
+      "Suitable for top-load washing machines",
+      "Hygienically packed",
+      "1-liter bottle for convenient use",
+      "Made in India"
+    ],
+    "Specification": {
+      "Volume": "1 Liter",
+      "Packaging Type": "Bottle",
+      "Washing Machine Type": "Top-Load",
+      "Country of Origin": "India"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:57:08.413311"
+  },
+  {
+    "Barcode": "8902102127567",
+    "Product Name": "Ujala Instant Dirt Dissolver Detergent Powder",
+    "Brand": "Ujala",
+    "Description": "Ujala Instant Dirt Dissolver Detergent Powder effectively removes stubborn stains, leaving your laundry clean and fresh-smelling.  This detergent is designed for efficient cleaning and is suitable for various fabrics.",
+    "Category": "Laundry & Cleaning",
+    "Subcategory": "Laundry Detergents",
+    "ProductLine": "Detergent Powder",
+    "Quantity": 1.0,
+    "Unit": "kg",
+    "Features": [
+      "Effective stain removal",
+      "Fresh scent",
+      "Suitable for various fabrics",
+      "Instant dirt dissolving action",
+      "Convenient packaging"
+    ],
+    "Specification": {
+      "Weight": "1 kg",
+      "EAN Code": "8902102127567",
+      "Type": "Powder"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:57:13.779463"
+  },
+  {
+    "Barcode": "8902102197461",
+    "Product Name": "Maxo Mosquito Repellent Coil 8 Hour Red Regular",
+    "Brand": "Maxo",
+    "Description": "Maxo Mosquito Repellent Coils provide long-lasting protection against mosquitoes.  These coils are designed for regular use and offer up to 8 hours of continuous protection per coil.  The red coils are part of the Maxo regular line and come in a pack of 10.",
+    "Category": "Household Goods",
+    "Subcategory": "Pest Control",
+    "ProductLine": "Maxo Regular",
+    "Quantity": 10,
+    "Unit": "Coils",
+    "Features": [
+      "Long-lasting protection (up to 8 hours per coil)",
+      "Effective mosquito repellent",
+      "Regular strength formula",
+      "Convenient and easy to use",
+      "Pack of 10 coils"
+    ],
+    "Specification": {
+      "Dimensions": "11.5 x 2.8 x 11.5 cm",
+      "Weight": "250 g",
+      "Burn Time": "8 hours per coil",
+      "Scent": "Regular (unspecified scent)",
+      "Type": "Coil"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:57:19.719381"
+  },
+  {
+    "Barcode": "8902102163626",
+    "Product Name": "Maxo Genius Calming Aroma Liquid Vaporiser",
+    "Brand": "Maxo",
+    "Description": "Maxo Genius Calming Aroma Liquid Vaporiser is a 45ml aromatherapy product designed to promote relaxation and calmness.  The product is described as pure and hygienically packed.  It's a liquid vaporiser, intended to be used in a diffuser to release calming aromas into the air.",
+    "Category": "Health and Beauty",
+    "Subcategory": "Aromatherapy",
+    "ProductLine": "Genius",
+    "Quantity": 45.0,
+    "Unit": "ml",
+    "Features": [
+      "Calming aroma",
+      "Liquid vaporiser for diffuser use",
+      "45ml bottle size",
+      "Hygienically packed",
+      "Pure ingredients"
+    ],
+    "Specification": {
+      "Volume": "45 ml",
+      "Type": "Liquid Vaporiser",
+      "Scent Profile": "Calming"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:57:25.350699"
+  },
+  {
+    "Barcode": "8902102162391",
+    "Product Name": "Maxo Genius Automatic Max Protection Machine with 1 Refill (45ml)",
+    "Brand": "Maxo",
+    "Description": "The Maxo Genius Automatic Max Protection Machine is a convenient and hygienic device designed for dispensing liquid. This kit includes one machine and one 45ml refill.  All products are pure and hygienically packed.",
+    "Category": "Health and Beauty",
+    "Subcategory": "Personal Care Appliances",
+    "ProductLine": "Maxo Genius",
+    "Quantity": 45.0,
+    "Unit": "ml",
+    "Features": [
+      "Automatic dispensing",
+      "Hygienic packaging and product",
+      "Convenient and easy to use",
+      "Includes one machine and one refill",
+      "45ml refill capacity"
+    ],
+    "Specification": {
+      "Capacity": "45 ml",
+      "Type": "Automatic Dispenser",
+      "Refills Available": "Yes",
+      "Country of Origin": "India"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:57:31.180793"
+  },
+  {
+    "Barcode": "8902102300700",
+    "Product Name": "Ujala Washing Powder 4kg + Free Bucket",
+    "Brand": "Ujala",
+    "Description": "Ujala Washing Powder offers a powerful cleaning solution for your laundry. This 4kg pack comes with a free bucket, making it a convenient and economical choice.  The powder is designed to effectively remove stains and leave your clothes fresh and clean.  Please note that while the source URL lists a Tide product, the barcode strongly suggests this is actually Ujala.",
+    "Category": "Cleaning Supplies",
+    "Subcategory": "Laundry Detergents",
+    "ProductLine": "Ujala Washing Powders",
+    "Quantity": 4.0,
+    "Unit": "kg",
+    "Features": [
+      "Powerful cleaning action",
+      "Effective stain removal",
+      "Fresh scent",
+      "Includes free bucket",
+      "Economical 4kg pack"
+    ],
+    "Specification": {
+      "Weight": "4 kg",
+      "Packaging": "Powder",
+      "Free Item": "Bucket",
+      "Reference Number": "BTS0402"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:57:42.037568"
+  },
+  {
+    "Barcode": "8902102126737",
+    "Product Name": "Thanal 500g Product",
+    "Brand": "Thanal",
+    "Description": "This product is sold by Thanal Super Market.  The description is limited, but it appears to be a food item available in 500g and 1kg sizes.  Further details about the specific product are unavailable from the provided source.",
+    "Category": "Food",
+    "Subcategory": "Grocery",
+    "ProductLine": "Unknown",
+    "Quantity": 0.5,
+    "Unit": "kg",
+    "Features": [
+      "Available in 500g and 1kg sizes",
+      "Sold by Thanal Super Market",
+      "Likely a food item (further details needed)"
+    ],
+    "Specification": {
+      "Weight": "500g",
+      "Price": "\u20b928"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:57:47.365902"
+  },
+  {
+    "Barcode": "8902102126720",
+    "Product Name": "Morelight DTE Powder",
+    "Brand": "Thanal",
+    "Description": "Morelight DTE Powder is a general item available in 1kg and 500g packs.  It's a versatile powder suitable for various uses (further details on specific uses would require additional information).",
+    "Category": "Food and Grocery",
+    "Subcategory": "Spices and Seasonings",
+    "ProductLine": "Morelight",
+    "Quantity": 1,
+    "Unit": "kg",
+    "Features": [
+      "Available in 1kg and 500g packs",
+      "Versatile powder",
+      "General purpose item"
+    ],
+    "Specification": {
+      "Weight Options": "1kg, 500g",
+      "Price (1kg)": "\u20b955",
+      "Price (500g)": "\u20b928"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:57:51.666648"
+  },
+  {
+    "Barcode": "8902102126232",
+    "Product Name": "Ujala Detergent Powder",
+    "Brand": "Ujala",
+    "Description": "Ujala Detergent Powder is a laundry detergent designed for effective stain removal.  It's known for its instant dirt dissolving capabilities, making it a convenient and efficient cleaning solution. This particular listing is for a 4kg pack.",
+    "Category": "Household Cleaning",
+    "Subcategory": "Laundry Detergents",
+    "ProductLine": "Detergent Powder",
+    "Quantity": 4,
+    "Unit": "kg",
+    "Features": [
+      "Instant dirt dissolving",
+      "Effective stain removal",
+      "Suitable for various fabrics",
+      "Convenient and easy to use",
+      "Manufactured by Jyothy Labs Ltd."
+    ],
+    "Specification": {
+      "EAN Code": "8902102126232",
+      "Country of Origin": "India",
+      "Manufacturer": "Jyothy Labs Ltd"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:57:57.196769"
+  },
+  {
+    "Barcode": "8902102127017",
+    "Product Name": "Ujala Liquid Detergent with Instant Dirt Dissolvers & 99.9% Germ Protection",
+    "Brand": "Ujala",
+    "Description": "Ujala Liquid Detergent is a top-load/bucket wash detergent designed for effective cleaning.  It features instant dirt dissolvers for quick and easy stain removal and provides 99.9% germ protection. This liquid detergent is suitable for various fabrics and washing methods.",
+    "Category": "Laundry",
+    "Subcategory": "Laundry Detergent",
+    "ProductLine": "Liquid Detergent",
+    "Quantity": 1,
+    "Unit": "Bottle",
+    "Features": [
+      "Instant dirt dissolvers for quick stain removal",
+      "99.9% germ protection",
+      "Suitable for top-load and bucket washing",
+      "Effective cleaning power",
+      "Suitable for various fabrics"
+    ],
+    "Specification": {
+      "Volume": "430 ml",
+      "Manufacturer": "Jyothy Labs Ltd",
+      "EAN Code": "8902102127017"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:58:06.924331"
+  },
+  {
+    "Barcode": "8902102126973",
+    "Product Name": "More Light Detergent Powder (4 kg)",
+    "Brand": "More",
+    "Description": "More Light Detergent Powder is a 4 kg pack of laundry detergent designed for effective cleaning.  This product is suitable for various fabrics and is known for its light scent.  It's a popular choice for those seeking a gentle yet powerful cleaning solution.",
+    "Category": "Cleaning Supplies",
+    "Subcategory": "Laundry Detergents",
+    "ProductLine": "More Light Detergent",
+    "Quantity": 4.0,
+    "Unit": "kg",
+    "Features": [
+      "Effective cleaning power",
+      "Light scent",
+      "Suitable for various fabrics",
+      "4 kg large pack for cost-effectiveness",
+      "Gentle on clothes"
+    ],
+    "Specification": {
+      "Weight": "4 kg",
+      "Packaging": "Powder",
+      "Scent": "Light",
+      "Product Code": "BR390",
+      "Reference Number": "BTS3340"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:58:11.327400"
+  },
+  {
+    "Barcode": "8902102127024",
+    "Product Name": "Ujala Fabric Whitener Liquid",
+    "Brand": "Ujala",
+    "Description": "Ujala Fabric Whitener Liquid is a popular laundry detergent additive designed to brighten and whiten clothes.  It helps remove stains and yellowing, leaving fabrics looking cleaner and fresher.  It's a liquid formula for easy dispensing and mixing.",
+    "Category": "Laundry",
+    "Subcategory": "Fabric Whitener",
+    "ProductLine": "Ujala Fabric Whitener",
+    "Quantity": 800.0,
+    "Unit": "ml",
+    "Features": [
+      "Brightens and whitens clothes",
+      "Removes stains and yellowing",
+      "Easy to use liquid formula",
+      "Leaves clothes feeling soft and fresh",
+      "Improves the overall appearance of fabrics"
+    ],
+    "Specification": {
+      "Volume": "800 ml",
+      "Form": "Liquid",
+      "Application": "Laundry additive",
+      "Usage Instructions": "Add to your washing machine's rinse cycle according to package instructions."
+    },
+    "Product Image": "https://images.openfoodfacts.org/images/products/890/210/212/7024/front_en.3.400.jpg",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:58:15.719025"
+  },
+  {
+    "Barcode": "8902102126775",
+    "Product Name": "Mr. White Detergent Powder",
+    "Brand": "Mr.",
+    "Description": "Mr. White Detergent Powder is a laundry detergent designed for effective cleaning.  It's suitable for various fabrics and comes in a convenient 500g pack.  This detergent is currently available in stock.",
+    "Category": "Laundry",
+    "Subcategory": "Detergent Powders",
+    "ProductLine": "Mr. White",
+    "Quantity": 500.0,
+    "Unit": "g",
+    "Features": [
+      "Effective cleaning power",
+      "Suitable for various fabrics",
+      "Convenient 500g packaging",
+      "Readily available",
+      "Cost-effective solution for laundry needs"
+    ],
+    "Specification": {
+      "Weight": "500g",
+      "Form": "Powder",
+      "Type": "Laundry Detergent"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:58:21.362586"
+  },
+  {
+    "Barcode": "8902102126782",
+    "Product Name": "Mr. White Detergent Powder",
+    "Brand": "Mr.",
+    "Description": "Mr. White Detergent Powder is a laundry detergent designed for effective cleaning.  It's available in a 1kg pack.  This product is currently out of stock.",
+    "Category": "Laundry Products",
+    "Subcategory": "Detergent Powders",
+    "ProductLine": "Mr. White",
+    "Quantity": 1.0,
+    "Unit": "kg",
+    "Features": [
+      "Effective cleaning power",
+      "Suitable for various fabrics",
+      "1kg convenient packaging",
+      "Powder detergent formulation"
+    ],
+    "Specification": {
+      "Weight": "1 kg",
+      "Packaging": "Powder",
+      "Availability": "Out of Stock"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:58:25.560639"
+  },
+  {
+    "Barcode": "8902102127789",
+    "Product Name": "Mr. White Detergent Powder",
+    "Brand": "Mr.",
+    "Description": "Mr. White Detergent Powder is a high-performance laundry detergent designed for effective cleaning.  It's formulated to remove tough stains and leave clothes bright and fresh. This particular listing is for a 4kg pack, offering a cost-effective solution for larger households or frequent laundry needs. Manufactured by Jyothy Laboratories Ltd. in India.",
+    "Category": "Household Cleaning",
+    "Subcategory": "Laundry Detergents",
+    "ProductLine": "Mr. White",
+    "Quantity": 4.0,
+    "Unit": "kg",
+    "Features": [
+      "Effective stain removal",
+      "Brightens clothes",
+      "Long-lasting freshness",
+      "Cost-effective for large loads",
+      "2x Active Power (as indicated on a similar product listing)"
+    ],
+    "Specification": {
+      "Manufacturer": "Jyothy Laboratories Ltd.",
+      "Country of Origin": "India",
+      "Packaging": "Powder",
+      "Weight": "4 kg",
+      "Best Before (Example from similar product):": "13-05-2026"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:58:36.414917"
+  },
+  {
+    "Barcode": "8902102127307",
+    "Product Name": "Ujala Liquid Detergent Refill",
+    "Brand": "Ujala",
+    "Description": "Ujala Liquid Detergent Refill is a 2-liter refill pack designed for use in both bucket washes and top-load washing machines.  Formulated for tough dirt removal, it's a cost-effective solution for laundry cleaning.",
+    "Category": "Household Cleaning",
+    "Subcategory": "Laundry Detergents",
+    "ProductLine": "Ujala Liquid Detergents",
+    "Quantity": 2.0,
+    "Unit": "L",
+    "Features": [
+      "Designed for tough dirt removal",
+      "Suitable for bucket washes and top-load washing machines",
+      "Cost-effective 2-liter refill pack",
+      "Effective cleaning power",
+      "Blue color"
+    ],
+    "Specification": {
+      "Volume": "2000ml",
+      "Packaging": "Refill Pack",
+      "Type": "Liquid Detergent",
+      "Application": "Top Load Washing Machines & Bucket Wash"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:58:42.149286"
+  },
+  {
+    "Barcode": "8902102127512",
+    "Product Name": "Ujala Front Load Liquid Detergent",
+    "Brand": "Ujala",
+    "Description": "Ujala Front Load Liquid Detergent is a 2-liter bottle of laundry detergent specifically formulated for front-load washing machines.  While the provided source mentions a connection to 'Henko Matic Front Load Detergent Powder', this likely refers to a separate product listed on the same website.  This Ujala detergent is designed for effective cleaning and is suitable for various fabrics.",
+    "Category": "Laundry",
+    "Subcategory": "Detergents",
+    "ProductLine": "Front Load",
+    "Quantity": 2.0,
+    "Unit": "l",
+    "Features": [
+      "Specifically formulated for front-load washing machines",
+      "Effective cleaning performance",
+      "Suitable for various fabrics",
+      "2-liter bottle for convenient use",
+      "Likely contains enzymes and surfactants for stain removal"
+    ],
+    "Specification": {
+      "Volume": "2 liters",
+      "Type": "Liquid",
+      "Washing Machine Type": "Front Load",
+      "Loyalty Points (Bettyfresh):": "269 points"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:58:47.268936"
+  },
+  {
+    "Barcode": "8902102127505",
+    "Product Name": "Ujala Liquid Detergent for Front Load Washing Machines",
+    "Brand": "Ujala",
+    "Description": "Ujala Liquid Detergent is specifically formulated for front load washing machines.  It contains an instant dirt dissolver for effective cleaning, even in cold water. This 800ml bottle provides a convenient and efficient way to keep your clothes clean and fresh.",
+    "Category": "Laundry",
+    "Subcategory": "Laundry Detergent",
+    "ProductLine": "Liquid Detergent",
+    "Quantity": 800.0,
+    "Unit": "ml",
+    "Features": [
+      "Specifically designed for front load washing machines",
+      "Contains an instant dirt dissolver for powerful cleaning",
+      "Suitable for use in cold water",
+      "Effective stain removal",
+      "Leaves clothes fresh and clean"
+    ],
+    "Specification": {
+      "Volume": "800 ml",
+      "Type": "Liquid",
+      "Washing Machine Type": "Front Load",
+      "Scent": "Unspecified (Further information needed)",
+      "Packaging": "Bottle"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:58:52.901151"
+  },
+  {
+    "Barcode": "8902102126836",
+    "Product Name": "MR. WHITE Ultimate Whiteness 5kg Laundry Detergent",
+    "Brand": "MR. WHITE",
+    "Description": "MR. WHITE Ultimate Whiteness is a 5kg laundry detergent designed for superior cleaning and whitening power.  This product is likely a powder detergent, packaged in a container (the description mentions 'container free' which may refer to a refill option or a specific packaging style). It is sold at Kunnukara Supermarket.",
+    "Category": "Household Cleaning",
+    "Subcategory": "Laundry Detergents",
+    "ProductLine": "Ultimate Whiteness",
+    "Quantity": 5.0,
+    "Unit": "kg",
+    "Features": [
+      "Ultimate Whiteness",
+      "Superior Cleaning Power",
+      "5kg Large Capacity",
+      "Likely Powder Detergent",
+      "May be available as a refill or in specific packaging"
+    ],
+    "Specification": {
+      "Weight": "5 kg",
+      "Type": "Powder Detergent (assumed)",
+      "Packaging": "Container (details unclear)"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Nutrition Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-05-31T18:58:58.396226"
   }
 ]

@@ -1,0 +1,23 @@
+[
+  {
+    "barcode": "G",
+    "date_added": "2025-05-31T19:48:34.380913",
+    "reasons": [
+      "Invalid format"
+    ]
+  },
+  {
+    "barcode": "CADJ",
+    "date_added": "2025-05-31T21:43:07.587399",
+    "reasons": [
+      "Invalid format"
+    ]
+  },
+  {
+    "barcode": "8902102164166 :1",
+    "date_added": "2025-05-31T21:54:13.172820",
+    "reasons": [
+      "Invalid format"
+    ]
+  }
+]

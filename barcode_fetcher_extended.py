@@ -6,6 +6,7 @@ import logging
 import os
 import pandas as pd
 import signal
+import pickle
 from datetime import datetime
 from typing import Dict, List, Optional, Tuple
 from dotenv import load_dotenv
@@ -26,7 +27,7 @@ class BarcodeProcessor:
     
      self.output_dir = output_dir
      self.single_file = single_file
-     self.single_file_path = os.path.join(output_dir, "barcode_products.json")
+     self.single_file_path = os.path.join(output_dir, "output.json")
      self.all_products = []
     
      # Create output directory if it doesn't exist
@@ -49,7 +50,10 @@ class BarcodeProcessor:
      self.digiteyes_app_key = os.getenv("DIGITEYES_APP_KEY")
      self.digiteyes_signature = os.getenv("DIGITEYES_SIGNATURE")
      self.gemini_api_key = os.getenv("GEMINI_API_KEY")
-    
+     self.invalid_barcodes_file = os.path.join(output_dir, "invalid_barcodes.json")
+     self.invalid_barcodes = self._load_invalid_barcodes()
+     logger.info(f"Loaded {len(self.invalid_barcodes)} known invalid barcodes")
+
      # Configuration
      self.api_request_delay = float(os.getenv("API_REQUEST_DELAY", "1.0"))
      self.max_retries = int(os.getenv("MAX_RETRIES", "5"))
@@ -63,7 +67,6 @@ class BarcodeProcessor:
      # Track processed items
      self.last_processed_item = None
      self.valid_barcodes = []
-     self.invalid_barcodes = []
      self.processed_barcodes = []
     
      # API failure tracking - set Gemini as the primary service
@@ -105,7 +108,17 @@ class BarcodeProcessor:
      
      # Verify API keys are loaded
      self._check_api_keys()
-
+    def _load_invalid_barcodes(self):
+     """Load previously identified invalid barcodes."""
+     if os.path.exists(self.invalid_barcodes_file):
+        try:
+            with open(self.invalid_barcodes_file, 'r') as f:
+                data = json.load(f)
+                # Extract just the barcode values as a set for fast lookups
+                return {item['barcode'] for item in data if 'barcode' in item}
+        except Exception as e:
+            logger.warning(f"Error loading invalid barcodes: {e}")
+     return set()  # Return empty set if file doesn't exist or can't be read
     def _check_api_keys(self):
      """Verify API keys are loaded and log warnings for missing keys."""
      missing_keys = []
@@ -208,34 +221,64 @@ class BarcodeProcessor:
             return [], []
     
     def process_single_barcode(self, barcode: str) -> Optional[Dict]:
-        """Process a single barcode and return the product data."""
-        logger.info(f"Processing barcode: {barcode}")
+     """Process a single barcode and return the product data."""
+     logger.info(f"Processing barcode: {barcode}")
+    
+     # First try OpenFoodFacts
+     product_data = self._search_openfoodfacts(barcode)
+     failure_reasons = []
+    
+     # If not found, try Google Search
+     if not product_data or not product_data.get('name'):
+        logger.info(f"No data found in OpenFoodFacts, trying Google for: {barcode}")
+        failure_reasons.append("Not found in OpenFoodFacts")
+        product_data = self._search_google(barcode)
+    
+     # If not found, try DigiTeyes API
+     if not product_data or not product_data.get('name'):
+        logger.info(f"No data found in Google, trying DigiTeyes for: {barcode}")
+        failure_reasons.append("Not found in Google Search")
+        product_data = self._search_digiteyes(barcode)
+    
+     # If we have data, enhance it with AI
+     if product_data and product_data.get('name'):
+        logger.info(f"Found product data: {product_data.get('name')}")
+        product_data = self._enhance_with_ai(product_data, barcode)
         
-        # First try OpenFoodFacts
-        product_data = self._search_openfoodfacts(barcode)
+        # Save product data
+        self._save_product_data(product_data)
+        self.last_processed_item = product_data
+        return product_data
+     else:
+        logger.warning(f"No product information found for barcode: {barcode}")
+        failure_reasons.append("Not found in DigiTeyes")
         
-        # If not found, try Google Search
-        if not product_data or not product_data.get('name'):
-            logger.info(f"No data found in OpenFoodFacts, trying Google for: {barcode}")
-            product_data = self._search_google(barcode)
-        
-        # If not found, try DigiTeyes API
-        if not product_data or not product_data.get('name'):
-            logger.info(f"No data found in Google, trying DigiTeyes for: {barcode}")
-            product_data = self._search_digiteyes(barcode)
-        
-        # If we have data, enhance it with AI
-        if product_data and product_data.get('name'):
-            logger.info(f"Found product data: {product_data.get('name')}")
-            product_data = self._enhance_with_ai(product_data, barcode)
-            
-            # Save product data
-            self._save_product_data(product_data)
-            self.last_processed_item = product_data
-            return product_data
-        else:
-            logger.warning(f"No product information found for barcode: {barcode}")
-            return None
+        # Save to not found barcodes file
+        self._save_not_found_barcode(barcode, failure_reasons)
+         
+        # Create minimal placeholder data
+        minimal_data = {
+            'Barcode': barcode,
+            'Product Name': f"Unknown Product {barcode}",
+            'Brand': "Unknown",
+            'Description': f"Could not find information for barcode {barcode}",
+            'Category': "Unknown",
+            'Subcategory': "",
+            'ProductLine': "Unknown",
+            'Quantity': 0,
+            'Unit': "",
+            'Features': ["Information not available"],
+            'Specification': {
+                'Barcode Type': f"{len(barcode)}-digit barcode"
+            },
+            'Data Source': "No Data Found",
+            'Timestamp': datetime.now().isoformat()
+        }
+         
+        # Still save to main output for consistency
+        self._save_product_data(minimal_data)
+        self.last_processed_item = minimal_data
+        return minimal_data
     
     def _is_valid_barcode(self, barcode: str) -> bool:
         """Check if barcode has a valid format."""
@@ -286,6 +329,331 @@ class BarcodeProcessor:
             logger.error(f"Error in OpenFoodFacts search: {e}")
             return None
     
+    def resume_processing_from_last_position(self, excel_file: str) -> int:
+     """
+     Determine the row to resume processing from by finding the last processed barcode
+     in the Excel file.
+    
+     Args:
+        excel_file: Path to Excel file containing barcodes
+        
+     Returns:
+        row_index: The row index to resume from (0-based)
+     """
+     last_barcode = None
+     last_timestamp = None
+    
+     # Try to get last processed barcode from pickle file first (most reliable)
+     if os.path.exists('barcode_progress.pkl'):
+        try:
+            with open('barcode_progress.pkl', 'rb') as f:
+                progress_data = pickle.load(f)
+                last_barcode = progress_data.get('last_processed_barcode')
+                logger.info(f"Found last processed barcode in pickle file: {last_barcode}")
+                
+                # If pickle contains exact row number, use that directly
+                if 'current_row' in progress_data:
+                    next_row = progress_data['current_row'] + 1
+                    logger.info(f"Resuming from row {next_row} based on pickle data")
+                    return next_row
+        except:
+            logger.warning("Could not read pickle file, trying output.json")
+    
+     # Fall back to output.json if pickle not available or doesn't contain row number
+     if not last_barcode and os.path.exists(self.single_file_path):
+        try:
+            with open(self.single_file_path, 'r') as f:
+                output_data = json.load(f)
+                
+                # Find most recent entry by timestamp
+                for entry in output_data:
+                    timestamp = entry.get('Timestamp')
+                    if timestamp:
+                        try:
+                            entry_time = datetime.fromisoformat(timestamp)
+                            if not last_timestamp or entry_time > last_timestamp:
+                                last_timestamp = entry_time
+                                last_barcode = entry.get('Barcode')
+                        except:
+                            continue
+                
+                if last_barcode:
+                    logger.info(f"Found last processed barcode in output.json: {last_barcode}")
+        except:
+            logger.warning("Could not determine last processed barcode from output.json")
+    
+     # If we found a last barcode, locate its position in the Excel file
+     if last_barcode:
+        try:
+            # Read barcode column from Excel
+            df = pd.read_excel(excel_file)
+            barcode_column = None
+            
+            # Try to identify the barcode column
+            for column in df.columns:
+                if 'barcode' in str(column).lower() or 'code' in str(column).lower():
+                    barcode_column = column
+                    break
+            
+            if not barcode_column and len(df.columns) > 0:
+                # If no column name contains 'barcode', use the first column
+                barcode_column = df.columns[0]
+            
+            if barcode_column:
+                # Convert all to string for comparison
+                df[barcode_column] = df[barcode_column].astype(str)
+                
+                # Find the row containing the last processed barcode
+                for i, row in df.iterrows():
+                    if str(row[barcode_column]) == str(last_barcode):
+                        next_row = i + 1
+                        logger.info(f"Found last barcode at row {i}, resuming from row {next_row}")
+                        return next_row
+                
+                logger.warning(f"Last barcode {last_barcode} not found in Excel file, starting from beginning")
+            else:
+                logger.warning("Could not identify barcode column in Excel file")
+        except Exception as e:
+            logger.error(f"Error finding row position: {e}")
+    
+     # If all else fails, start from the beginning
+     logger.info("Starting from the beginning of the Excel file")
+     return 0
+
+    def signal_handler(self, sig, frame):
+     """Handle keyboard interrupt by gracefully stopping the processor."""
+     logger.info("Interrupt received, completing current barcode and stopping...")
+     self.stop_requested = True
+
+    def _add_invalid_barcode(self, barcode: str, reasons: List[str] = None) -> None:
+     """Add a barcode to the invalid barcodes file."""
+     invalid_data = []
+    
+     # Load existing invalid barcodes if file exists
+     if os.path.exists(self.invalid_barcodes_file):
+        try:
+            with open(self.invalid_barcodes_file, 'r') as f:
+                invalid_data = json.load(f)
+        except json.JSONDecodeError:
+            logger.warning(f"Could not parse existing invalid barcodes file, starting fresh")
+    
+     # Check if barcode already exists in list
+     for item in invalid_data:
+        if item.get('barcode') == barcode:
+            # Update reasons if needed
+            if reasons:
+                item['reasons'] = list(set(item.get('reasons', []) + reasons))
+            return  # Barcode already in list, no need to add again
+    
+     # Add to list if not exists
+     invalid_data.append({
+        'barcode': barcode,
+        'date_added': datetime.now().isoformat(),
+        'reasons': reasons or ["Unknown reason"]
+     })
+    
+     # Save updated list
+     with open(self.invalid_barcodes_file, 'w') as f:
+        json.dump(invalid_data, f, indent=2)
+    
+     # Add to in-memory set for fast lookups
+     if isinstance(self.invalid_barcodes, set):
+      self.invalid_barcodes.add(barcode)
+     else:
+      # Ensure it's a set if it somehow got created as something else
+      self.invalid_barcodes = set(self.invalid_barcodes)
+      self.invalid_barcodes.add(barcode)
+    
+     logger.info(f"Added barcode {barcode} to invalid_barcodes.json")
+
+
+    def _is_valid_barcode_format(self, barcode: str) -> bool:
+     """Check if barcode has a valid format (EAN-8, EAN-13, UPC-A, GTIN-14)."""
+     # Remove any spaces or dashes
+     barcode = barcode.replace(' ', '').replace('-', '')
+    
+     # Valid barcodes are numeric and 8, 12, 13 or 14 digits long
+     if not barcode.isdigit():
+        return False
+        
+     valid_lengths = [8, 12, 13, 14]
+     if len(barcode) not in valid_lengths:
+        return False
+        
+     return True
+
+
+    def process_barcodes_from_excel(self, excel_file: str) -> Dict:
+     """Process barcodes from Excel file with efficient resume capability and invalid barcode filtering."""
+     try:
+        # Determine the row to resume from
+        start_row = self.resume_processing_from_last_position(excel_file)
+        
+        # Read the Excel file
+        df = pd.read_excel(excel_file)
+        
+        if df.empty:
+            logger.warning(f"Excel file {excel_file} is empty")
+            return {'status': 'error', 'message': 'Excel file is empty'}
+        
+        # Initialize progress tracking
+        total_rows = len(df)
+        processed = 0
+        successful = 0
+        errors = 0
+        skipped_invalid = 0
+        start_time = time.time()
+        
+        # Try to identify the barcode column
+        barcode_column = None
+        for column in df.columns:
+            if 'barcode' in str(column).lower() or 'code' in str(column).lower():
+                barcode_column = column
+                break
+        
+        if not barcode_column and len(df.columns) > 0:
+            # If no column name contains 'barcode', use the first column
+            barcode_column = df.columns[0]
+            logger.info(f"Using column '{barcode_column}' as barcode column")
+        
+        # Set up progress state
+        progress_state = {
+            'start_time': datetime.now().isoformat(),
+            'current_row': start_row,
+            'total_rows': total_rows,
+            'processed_count': processed,
+            'success_count': successful,
+            'error_count': errors,
+            'skipped_invalid': skipped_invalid
+        }
+        
+        logger.info(f"Starting to process barcodes from Excel file {excel_file} at row {start_row+1}/{total_rows}")
+        
+        # Process each row starting from the resume position
+        for i, row in df.iloc[start_row:].iterrows():
+            try:
+                if self.stop_requested:
+                    logger.info("Stop requested, saving progress")
+                    break
+                
+                # Update current row in progress state
+                progress_state['current_row'] = i
+                
+                # Get barcode from the appropriate column
+                if barcode_column:
+                    barcode = str(row[barcode_column]).strip()
+                else:
+                    # If no barcode column was identified, try to use the first cell in the row
+                    barcode = str(row[0]).strip()
+                
+                # Skip empty barcodes
+                if not barcode or barcode == 'nan':
+                    logger.warning(f"Empty barcode at row {i+1}, skipping")
+                    processed += 1
+                    errors += 1
+                    continue
+                
+                # Skip already known invalid barcodes
+                if barcode in self.invalid_barcodes:
+                    logger.info(f"Skipping known invalid barcode at row {i+1}: {barcode}")
+                    processed += 1       # Count as processed
+                    skipped_invalid += 1 # Count as skipped invalid
+                    continue
+                
+                # Check if barcode is valid (proper format)
+                if not self._is_valid_barcode_format(barcode):
+                    logger.warning(f"Invalid barcode format at row {i+1}: {barcode}, adding to invalid barcodes")
+                    self._add_invalid_barcode(barcode, ["Invalid format"])
+                    processed += 1
+                    errors += 1
+                    continue
+                
+                # Check if this barcode is already in our output (to avoid duplicates)
+                if self.single_file and self._is_already_processed(barcode):
+                    logger.info(f"Barcode {barcode} already processed, skipping")
+                    processed += 1
+                    successful += 1  # Count as successful since we already have the data
+                    continue
+                
+                logger.info(f"Processing row {i+1}/{total_rows}, barcode: {barcode}")
+                
+                # Process the barcode
+                result = self.process_single_barcode(barcode)
+                
+                # Update progress tracking
+                processed += 1
+                if result:
+                    successful += 1
+                    # Save the last successfully processed barcode
+                    progress_state['last_processed_barcode'] = barcode
+                else:
+                    errors += 1
+                
+                # Update progress state
+                progress_state['processed_count'] = processed
+                progress_state['success_count'] = successful
+                progress_state['error_count'] = errors
+                progress_state['skipped_invalid'] = skipped_invalid
+                
+                # Save progress state to pickle file
+                with open('barcode_progress.pkl', 'wb') as f:
+                    pickle.dump(progress_state, f)
+                
+                # Small delay between processing to avoid overwhelming APIs
+                time.sleep(0.1)
+                
+            except Exception as e:
+                logger.error(f"Error processing row {i+1}: {e}")
+                errors += 1
+                progress_state['error_count'] = errors
+                # Save progress even after errors
+                with open('barcode_progress.pkl', 'wb') as f:
+                    pickle.dump(progress_state, f)
+        
+        # Processing completed or interrupted
+        end_time = time.time()
+        duration = end_time - start_time
+        
+        # Calculate processing stats
+        avg_time_per_barcode = duration / processed if processed > 0 else 0
+        completion_percentage = (processed / total_rows) * 100 if total_rows > 0 else 0
+        
+        logger.info(f"Barcode processing completed or paused:")
+        logger.info(f"- Total rows in Excel: {total_rows}")
+        logger.info(f"- Processed: {processed} ({completion_percentage:.1f}%)")
+        logger.info(f"- Successful: {successful}")
+        logger.info(f"- Errors: {errors}")
+        logger.info(f"- Skipped (invalid): {skipped_invalid}")
+        logger.info(f"- Processing time: {duration:.2f} seconds ({avg_time_per_barcode:.2f} seconds per barcode)")
+        
+        return {
+            'status': 'success',
+            'total': total_rows,
+            'processed': processed,
+            'successful': successful,
+            'errors': errors,
+            'skipped_invalid': skipped_invalid,
+            'processing_time': duration,
+            'avg_time_per_barcode': avg_time_per_barcode,
+            'completion_percentage': completion_percentage,
+            'date': datetime.now().isoformat()
+        }
+        
+     except Exception as e:
+        logger.error(f"Error processing Excel file: {e}")
+        return {'status': 'error', 'message': str(e)}
+
+    def _is_already_processed(self, barcode: str) -> bool:
+     """Check if a barcode has already been processed and exists in the output."""
+     if not self.all_products:
+        return False
+        
+     # Look for barcode in already processed items
+     for product in self.all_products:
+        if product.get('Barcode') == barcode:
+            return True
+            
+     return False
     def _search_google(self, barcode: str) -> Optional[Dict]:
         """Search for barcode on Google using Google Custom Search API."""
         try:
@@ -775,7 +1143,42 @@ class BarcodeProcessor:
             self.ai_service_status["deepseek"]["failures"] += 1
             return None
     
-
+    def _save_not_found_barcode(self, barcode: str, reasons: List[str] = None) -> None:
+     """Save barcode with no data found to a separate JSON file."""
+     not_found_file = os.path.join(self.output_dir, "not_found_barcodes.json")
+     not_found_data = []
+    
+     # Load existing not found data if available
+     if os.path.exists(not_found_file):
+        try:
+            with open(not_found_file, 'r') as f:
+                not_found_data = json.load(f)
+        except json.JSONDecodeError:
+            logger.warning(f"Could not parse existing not found file, starting fresh")
+    
+     # Check if this barcode is already in the list
+     for item in not_found_data:
+        if item.get('barcode') == barcode:
+            # Update existing entry with new timestamp and attempts
+            item['attempts'] = item.get('attempts', 0) + 1
+            item['last_attempt'] = datetime.now().isoformat()
+            item['reasons'] = reasons or ["Unknown reason"]
+            break
+     else:
+        # Add new entry if not exists
+        not_found_data.append({
+            'barcode': barcode,
+            'attempts': 1,
+            'first_attempt': datetime.now().isoformat(),
+            'last_attempt': datetime.now().isoformat(),
+            'reasons': reasons or ["Unknown reason"]
+        })
+    
+     # Save updated list
+     with open(not_found_file, 'w') as f:
+        json.dump(not_found_data, f, indent=2)
+    
+     logger.info(f"Saved barcode {barcode} to not_found_barcodes.json")
     def _intelligent_format_product_data(self, product_data: Dict, barcode: str) -> Dict:
      """Intelligently format product data without AI, using improved pattern recognition."""
     
@@ -1115,7 +1518,7 @@ def main():
     excel_file = sys.argv[1]
     
     # Allow specifying output JSON file name
-    output_file = "barcode_products.json"
+    output_file = "output.json"
     if len(sys.argv) > 2:
         output_file = sys.argv[2]
     
@@ -1146,4 +1549,34 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # Setup signal handling for graceful interruption
+    import signal
+    
+    processor = BarcodeProcessor(output_dir="output")
+    
+    def handle_interrupt(sig, frame):
+        processor.stop_requested = True
+        print("\nInterrupt received. Completing current barcode and saving progress...")
+    
+    # Register the signal handler
+    signal.signal(signal.SIGINT, handle_interrupt)
+    
+    # Get command line arguments
+    import sys
+    if len(sys.argv) < 2:
+        print("Usage: python barcode_fetcher_extended.py <excel_file> [output_file]")
+        sys.exit(1)
+        
+    excel_file = sys.argv[1]
+    output_file = sys.argv[2] if len(sys.argv) > 2 else "output.json"
+    
+    # Process barcodes
+    print(f"Processing barcodes from {excel_file}...")
+    result = processor.process_barcodes_from_excel(excel_file)
+    
+    if result and isinstance(result, dict) and 'processed' in result:
+       print(f"Processing completed: {result['processed']} barcodes processed, "
+          f"{result['successful']} successful, {result['errors']} errors")
+    else:
+        print(f"Processing completed with errors. Please check logs.")
+    print(f"Results saved to {output_file}")
