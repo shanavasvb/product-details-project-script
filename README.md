@@ -462,19 +462,7 @@ This project was developed as part of an internship program at **datcarts** by:
 **Version:** 2.3.0  
 **License:** Proprietary Software - All Rights Reserved
 
-## 📞 Support & Contact
 
-### Technical Support
-For technical support, bug reports, or feature requests:
-
-- 📧 **Primary Contact**: shanavasvbasheer@gmail.com
-- 📧 **AI/ML Issues**: suminoushad101@gmail.com  
-- 📧 **QA/Testing**: osaayisha314@gmail.com
-
-### Documentation
-- 📖 **Project Wiki**: [Internal Documentation]
-- 🐛 **Issue Tracking**: [Internal Issue Tracker]
-- 📊 **Performance Monitoring**: [Internal Dashboard]
 
 
 
