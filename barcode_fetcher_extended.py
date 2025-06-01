@@ -950,7 +950,6 @@ class BarcodeProcessor:
                             # Add timestamps and image info
                             enhanced_data['Product Image'] = product_data.get('image_url', '')
                             enhanced_data['Product Ingredient Image'] = product_data.get('ingredient_image', '')
-                            enhanced_data['Nutrition Image'] = product_data.get('nutrition_image', '')
                             enhanced_data['Data Source'] = 'AI Enhanced'
                             enhanced_data['Timestamp'] = datetime.now().isoformat()
                             
@@ -1349,7 +1348,8 @@ class BarcodeProcessor:
             if 'ginger' in full_text:
                 features.append('Ginger twist fragrance')
      elif category == 'Food & Beverages':
-        features.extend(['Fresh quality', 'Nutritious', 'Ready to consume'])
+        features.extend(['Fresh quality', '
+        itious', 'Ready to consume'])
         if 'oil' in full_text:
             features.extend(['Pure and natural', 'Rich in nutrients'])
      else:
@@ -1419,7 +1419,6 @@ class BarcodeProcessor:
         'Specification': specifications,
         'Product Image': product_data.get('image_url', ''),
         'Product Ingredient Image': product_data.get('ingredient_image', ''),
-        'Nutrition Image': product_data.get('nutrition_image', ''),
         'Data Source': f"Intelligent Processing - {product_data.get('source', 'Multiple Sources')}",
         'Timestamp': datetime.now().isoformat()
      }
