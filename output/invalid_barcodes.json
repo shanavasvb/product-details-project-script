@@ -26,5 +26,47 @@
     "reasons": [
       "Invalid format"
     ]
+  },
+  {
+    "barcode": "10003",
+    "date_added": "2025-06-02T17:40:41.897924",
+    "reasons": [
+      "Invalid format"
+    ]
+  },
+  {
+    "barcode": "10004",
+    "date_added": "2025-06-02T17:41:23.067724",
+    "reasons": [
+      "Invalid format"
+    ]
+  },
+  {
+    "barcode": "10005",
+    "date_added": "2025-06-02T17:44:20.213024",
+    "reasons": [
+      "Invalid format"
+    ]
+  },
+  {
+    "barcode": "10006",
+    "date_added": "2025-06-02T17:44:20.213933",
+    "reasons": [
+      "Invalid format"
+    ]
+  },
+  {
+    "barcode": "10008",
+    "date_added": "2025-06-02T17:44:20.215041",
+    "reasons": [
+      "Invalid format"
+    ]
+  },
+  {
+    "barcode": "10009",
+    "date_added": "2025-06-02T17:44:24.616321",
+    "reasons": [
+      "Invalid format"
+    ]
   }
 ]
