@@ -1635,5 +1635,16 @@
     "reasons": [
       "No product data found"
     ]
+  },
+  {
+    "barcode": "8901030992452",
+    "attempts": 2,
+    "first_attempt": "2025-06-03T01:48:12.066746",
+    "last_attempt": "2025-06-03T01:48:12.069754",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
   }
 ]

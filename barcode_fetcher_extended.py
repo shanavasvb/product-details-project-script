@@ -72,8 +72,8 @@ class BarcodeProcessor:
      # API failure tracking - set Gemini as the primary service
      self.ai_service_status = {
         "gemini": {"working": True, "failures": 0},  # Primary
-        "openai": {"working": True, "failures": 0},  # Backup 1
-        "deepseek": {"working": True, "failures": 0}  # Backup 2
+        "openai": {"working": True, "failures": 0, "error_reason": None, "last_reset": time.time()},
+        "deepseek": {"working": True, "failures": 0, "error_reason": None, "last_reset": time.time()}
      }
     
      # Added failover info for common Indian product companies
@@ -256,29 +256,7 @@ class BarcodeProcessor:
         # Save to not found barcodes file
         self._save_not_found_barcode(barcode, failure_reasons)
          
-        # Create minimal placeholder data
-        minimal_data = {
-            'Barcode': barcode,
-            'Product Name': f"Unknown Product {barcode}",
-            'Brand': "Unknown",
-            'Description': f"Could not find information for barcode {barcode}",
-            'Category': "Unknown",
-            'Subcategory': "",
-            'ProductLine': "Unknown",
-            'Quantity': 0,
-            'Unit': "",
-            'Features': ["Information not available"],
-            'Specification': {
-                'Barcode Type': f"{len(barcode)}-digit barcode"
-            },
-            'Data Source': "No Data Found",
-            'Timestamp': datetime.now().isoformat()
-        }
-         
-        # Still save to main output for consistency
-        self._save_product_data(minimal_data)
-        self.last_processed_item = minimal_data
-        return minimal_data
+       
     
     def _is_valid_barcode(self, barcode: str) -> bool:
         """Check if barcode has a valid format."""

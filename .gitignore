@@ -34,3 +34,6 @@ Thumbs.db
 
 #OUTPUTFILE
 output/barcode_products.json
+
+#personal script
+filter_unknown_products.py
