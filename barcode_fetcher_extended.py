@@ -891,6 +891,10 @@ class BarcodeProcessor:
                 
                 # If Gemini failed 3 times in a row, mark it as not working
                 if not response and self.ai_service_status["gemini"]["failures"] >= 3:
+                    for attempt in range(1, 30):
+                     wait_time = (attempt + 1) * 2
+                     logger.warning(f"Gemini rate limit hit, waiting {wait_time} seconds")
+                     time.sleep(wait_time)
                     logger.warning("Gemini API marked as unavailable after repeated failures")
                     self.ai_service_status["gemini"]["working"] = False
             
