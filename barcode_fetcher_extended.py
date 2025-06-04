@@ -656,7 +656,7 @@ class BarcodeProcessor:
                     if response.status_code == 200:
                         break
                     elif response.status_code == 429:  # Rate limit
-                        wait_time = (attempt + 1) * 2
+                        wait_time = (attempt + 1) * 5
                         logger.warning(f"Google API rate limit hit, waiting {wait_time} seconds")
                         time.sleep(wait_time)
                     else:
@@ -709,7 +709,7 @@ class BarcodeProcessor:
                         if response.status_code == 200:
                             break
                         elif response.status_code == 429:  # Rate limit
-                            wait_time = (attempt + 1) * 2
+                            wait_time = (attempt + 1) * 5
                             logger.warning(f"Google API rate limit hit, waiting {wait_time} seconds")
                             time.sleep(wait_time)
                         else:
