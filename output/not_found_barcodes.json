@@ -15336,5 +15336,335 @@
       "Not found in Google Search",
       "Not found in DigiTeyes"
     ]
+  },
+  {
+    "barcode": "8901365202776",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:02:51.011845",
+    "last_attempt": "2025-06-05T03:02:51.011886",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970011",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:03:00.965411",
+    "last_attempt": "2025-06-05T03:03:00.965435",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970028",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:03:05.980144",
+    "last_attempt": "2025-06-05T03:03:05.980170",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970042",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:03:17.656156",
+    "last_attempt": "2025-06-05T03:03:17.656181",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970820",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:03:22.775763",
+    "last_attempt": "2025-06-05T03:03:22.775789",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970059",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:03:27.690874",
+    "last_attempt": "2025-06-05T03:03:27.690899",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970172",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:03:32.814492",
+    "last_attempt": "2025-06-05T03:03:32.814566",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970967",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:03:38.135820",
+    "last_attempt": "2025-06-05T03:03:38.135844",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970523",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:03:43.107668",
+    "last_attempt": "2025-06-05T03:03:43.107686",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970530",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:03:48.208273",
+    "last_attempt": "2025-06-05T03:03:48.208307",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970547",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:03:53.603206",
+    "last_attempt": "2025-06-05T03:03:53.603437",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098971209",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:03:58.210745",
+    "last_attempt": "2025-06-05T03:03:58.210783",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098971216",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:04:03.174311",
+    "last_attempt": "2025-06-05T03:04:03.174336",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970738",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:04:08.551320",
+    "last_attempt": "2025-06-05T03:04:08.551393",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970745",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:04:13.667853",
+    "last_attempt": "2025-06-05T03:04:13.667876",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970257",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:04:22.781399",
+    "last_attempt": "2025-06-05T03:04:22.781421",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098971223",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:04:27.901566",
+    "last_attempt": "2025-06-05T03:04:27.901588",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970646",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:04:32.816772",
+    "last_attempt": "2025-06-05T03:04:32.816796",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970288",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:04:37.729861",
+    "last_attempt": "2025-06-05T03:04:37.729875",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970271",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:04:42.413014",
+    "last_attempt": "2025-06-05T03:04:42.413035",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970882",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:04:47.455185",
+    "last_attempt": "2025-06-05T03:04:47.455213",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970899",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:04:52.680593",
+    "last_attempt": "2025-06-05T03:04:52.680628",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970301",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:04:57.804720",
+    "last_attempt": "2025-06-05T03:04:57.804771",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970325",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:05:02.818950",
+    "last_attempt": "2025-06-05T03:05:02.818976",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970332",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:05:07.733376",
+    "last_attempt": "2025-06-05T03:05:07.733401",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098971230",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:05:12.647551",
+    "last_attempt": "2025-06-05T03:05:12.647568",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970486",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:05:17.563269",
+    "last_attempt": "2025-06-05T03:05:17.563307",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970493",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:05:22.480223",
+    "last_attempt": "2025-06-05T03:05:22.480246",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970714",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:05:27.800256",
+    "last_attempt": "2025-06-05T03:05:27.800282",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
+  },
+  {
+    "barcode": "8904098970721",
+    "attempts": 1,
+    "first_attempt": "2025-06-05T03:05:38.043958",
+    "last_attempt": "2025-06-05T03:05:38.043982",
+    "reasons": [
+      "Not found in OpenFoodFacts",
+      "Not found in Google Search",
+      "Not found in DigiTeyes"
+    ]
   }
 ]

@@ -41377,5 +41377,1217 @@
     "Product Ingredient Image": "",
     "Data Source": "AI Enhanced",
     "Timestamp": "2025-06-05T02:56:16.487995"
+  },
+  {
+    "Barcode": "8901663002245",
+    "Product Name": "Gala Mr. Tall Mop",
+    "Brand": "Gala",
+    "Description": "The Gala Mr. Tall Mop is an efficient and durable cleaning tool, designed for ease of use and effective cleaning.  It's hygienically packed and comes as a single unit.",
+    "Category": "Cleaning Supplies",
+    "Subcategory": "Mops",
+    "ProductLine": "Mr. Tall Mop",
+    "Quantity": 1,
+    "Unit": "unit",
+    "Features": [
+      "Tall design for easy reach",
+      "Durable construction for long-lasting use",
+      "Efficient cleaning performance",
+      "Hygienically packed",
+      "Easy to use"
+    ],
+    "Specification": {
+      "Country of Origin": "Germany"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T02:58:56.945825"
+  },
+  {
+    "Barcode": "8901663001965",
+    "Product Name": "Gala Toilean Standee",
+    "Brand": "Gala",
+    "Description": "The Gala Toilean Standee is a convenient and practical product designed for use with toilet cleaning brushes.  It provides a stand for the brush, keeping it organized and off the bathroom floor.  More details about its specific design and materials are unavailable from the provided source.",
+    "Category": "Home Cleaning Supplies",
+    "Subcategory": "Toilet Cleaning Accessories",
+    "ProductLine": "Gala Cleaning Products",
+    "Quantity": 1,
+    "Unit": "piece",
+    "Features": [
+      "Provides a stand for toilet brushes",
+      "Keeps the toilet brush organized and off the floor",
+      "Contributes to a cleaner and more hygienic bathroom",
+      "Likely made of durable material (specific material unknown)"
+    ],
+    "Specification": {
+      "Material": "Unknown",
+      "Dimensions": "Unknown",
+      "Weight": "Unknown",
+      "Color": "Unknown"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T02:59:02.674439"
+  },
+  {
+    "Barcode": "8901663209415",
+    "Product Name": "Gala Chandra Kitchen Mop",
+    "Brand": "Gala",
+    "Description": "The Gala Chandra Kitchen Mop is a strong and reliable cleaning tool designed for kitchen use.  It's hygienically packed and ensures a clean and efficient cleaning experience.",
+    "Category": "Cleaning Supplies",
+    "Subcategory": "Mops",
+    "ProductLine": "Chandra",
+    "Quantity": 1,
+    "Unit": "unit",
+    "Features": [
+      "Strong and reliable construction",
+      "Suitable for kitchen cleaning",
+      "Hygienically packed",
+      "Efficient cleaning performance"
+    ],
+    "Specification": {
+      "Country of Origin": "Germany",
+      "Item Code": "8901663209415"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T02:59:07.083225"
+  },
+  {
+    "Barcode": "8901663452446",
+    "Product Name": "Gala Scrubber",
+    "Brand": "Gala",
+    "Description": "A pack of 5 Gala scrubbers, ideal for cleaning dishes and other surfaces.  Manufactured by Freudenberg Gala Household Products Pvt Ltd in India.  These scrubbers are designed for effective cleaning while being gentle on surfaces.",
+    "Category": "Household Cleaning Supplies",
+    "Subcategory": "Cleaning Pads & Sponges",
+    "ProductLine": "Gala Cleaning Products",
+    "Quantity": 5,
+    "Unit": "pc",
+    "Features": [
+      "Effective cleaning power",
+      "Gentle on surfaces",
+      "Durable and long-lasting",
+      "Suitable for dishes and other surfaces",
+      "5 pieces per pack"
+    ],
+    "Specification": {
+      "Manufacturer": "Freudenberg Gala Household Products Pvt Ltd",
+      "Country of Origin": "India",
+      "EAN Code": "300010727"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T02:59:12.510134"
+  },
+  {
+    "Barcode": "8901663002405",
+    "Product Name": "Gala Clip N Fit Floor Mop",
+    "Brand": "Gala",
+    "Description": "The Gala Clip N Fit Floor Mop is a convenient and efficient cleaning tool.  It features a 5-foot long powder-coated metal pipe for comfortable reach and durability.  The mop head is designed for easy clip-on and clip-off functionality, simplifying cleaning and maintenance.  This mop is suitable for various floor types and offers a simple yet effective cleaning solution for homes and offices.",
+    "Category": "Cleaning Supplies",
+    "Subcategory": "Floor Cleaning",
+    "ProductLine": "Gala Cleaning Tools",
+    "Quantity": 1,
+    "Unit": "piece",
+    "Features": [
+      "5-foot long powder-coated metal pipe",
+      "Clip-on/clip-off mop head for easy attachment and removal",
+      "Durable construction",
+      "Suitable for various floor types",
+      "Easy to use and maintain"
+    ],
+    "Specification": {
+      "Pipe Material": "Powder-coated metal",
+      "Pipe Length": "5 feet (152.4 cm)",
+      "Handle Type": "Telescopic (implied)",
+      "Mop Head Type": "Clip N Fit"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T02:59:18.448884"
+  },
+  {
+    "Barcode": "8901663003143",
+    "Product Name": "Gala Mini Mop Clip and Fit",
+    "Brand": "Gala",
+    "Description": "The Gala Mini Mop Clip and Fit is a convenient and efficient cleaning tool.  Made with plastic and cotton threads, this mini mop features a clip-and-fit design for easy attachment to a mop handle (handle not included).  It's ideal for quick clean-ups and smaller spaces.",
+    "Category": "Cleaning Supplies",
+    "Subcategory": "Mops",
+    "ProductLine": "Gala Household Cleaning Products",
+    "Quantity": 1,
+    "Unit": "pc",
+    "Features": [
+      "Mini size for easy maneuverability",
+      "Clip and fit design for secure attachment to a mop handle",
+      "Durable plastic and cotton construction",
+      "Suitable for quick clean-ups and small areas",
+      "White color"
+    ],
+    "Specification": {
+      "Material": "Plastic and Cotton Threads",
+      "Type": "Mini Mop",
+      "Color": "White",
+      "Handle Included": "No"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T02:59:24.080892"
+  },
+  {
+    "Barcode": "8901663004034",
+    "Product Name": "Good Gala Floor Mop",
+    "Brand": "Good",
+    "Description": "The Good Gala Floor Mop is a hygienic floor cleaning tool.  It's designed for efficient and clean floor mopping.  The product is packaged hygienically to maintain its cleanliness.",
+    "Category": "Cleaning Supplies",
+    "Subcategory": "Floor Cleaning",
+    "ProductLine": "Gala",
+    "Quantity": 1,
+    "Unit": "unit",
+    "Features": [
+      "Hygienically packed",
+      "Efficient floor cleaning",
+      "Easy to use (assumed based on general mop usage)",
+      "Durable construction (assumed based on general mop usage)"
+    ],
+    "Specification": {
+      "Country of Origin": "Germany",
+      "Item Code": "8901663004034"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T02:59:29.507974"
+  },
+  {
+    "Barcode": "8901663202966",
+    "Product Name": "Gala Dust Control Mop",
+    "Brand": "Gala",
+    "Description": "The Gala Dust Control Mop is designed for effective dust removal.  It's hygienically packed and ensures a clean and efficient cleaning experience.  Perfect for various surfaces, this mop is a practical addition to any home or office cleaning supplies.",
+    "Category": "Cleaning Supplies",
+    "Subcategory": "Mops",
+    "ProductLine": "Gala Cleaning Products",
+    "Quantity": 1,
+    "Unit": "unit",
+    "Features": [
+      "Effective dust control",
+      "Hygienically packed",
+      "Easy to use",
+      "Suitable for various surfaces",
+      "Durable construction"
+    ],
+    "Specification": {
+      "Country of Origin": "Germany",
+      "Item Code": "8901663202966"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T02:59:34.013844"
+  },
+  {
+    "Barcode": "8901663101986",
+    "Product Name": "Gala Dustpan",
+    "Brand": "Gala",
+    "Description": "A Gala brand dustpan, designed for convenient and efficient cleaning.  This dustpan is likely made of durable material for long-lasting use.  The exact material and dimensions are not specified in the source information.",
+    "Category": "Home Cleaning Supplies",
+    "Subcategory": "Dustpans and Brushes",
+    "ProductLine": "Gala Cleaning Tools",
+    "Quantity": 0,
+    "Unit": "piece",
+    "Features": [
+      "Durable Construction",
+      "Efficient Cleaning",
+      "Convenient Design",
+      "Likely Lightweight for Easy Handling"
+    ],
+    "Specification": {
+      "Model Number": "8901663101986",
+      "Price": "70.00",
+      "Currency": "INR"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T02:59:39.747780"
+  },
+  {
+    "Barcode": "8901663109029",
+    "Product Name": "Gala Deck Mop",
+    "Brand": "Gala",
+    "Description": "The Gala Deck Mop is designed for efficient cleaning of outdoor surfaces.  It's hygienically packed and ensures a clean and pure cleaning experience.",
+    "Category": "Cleaning Supplies",
+    "Subcategory": "Mops",
+    "ProductLine": "Outdoor Cleaning",
+    "Quantity": 1,
+    "Unit": "unit",
+    "Features": [
+      "Efficient cleaning for outdoor surfaces",
+      "Hygienically packed",
+      "Designed for decks and other outdoor areas",
+      "Easy to use (implied)",
+      "Durable construction (assumed)"
+    ],
+    "Specification": {
+      "Country of Origin": "Germany",
+      "Item Code": "8901663109029"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T02:59:45.379784"
+  },
+  {
+    "Barcode": "8901663102327",
+    "Product Name": "Gala Floor Wiper with Plastic Handle",
+    "Brand": "Gala",
+    "Description": "The Gala Floor Wiper is a practical cleaning tool designed for efficient floor cleaning.  It features a plastic handle for comfortable grip and control. Manufactured and marketed by Freudenberg Gala Household Product Private Limited.",
+    "Category": "Home Cleaning Supplies",
+    "Subcategory": "Floor Cleaning Tools",
+    "ProductLine": "Gala Household Cleaning Products",
+    "Quantity": 1,
+    "Unit": "piece",
+    "Features": [
+      "Plastic handle for comfortable grip",
+      "Efficient floor cleaning",
+      "Durable construction",
+      "Easy to use",
+      "Suitable for various floor types"
+    ],
+    "Specification": {
+      "Handle Material": "Plastic",
+      "Manufacturer": "Freudenberg Gala Household Product Private Limited",
+      "Packaging": "Single unit packaging"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T02:59:50.896923"
+  },
+  {
+    "Barcode": "8901663103256",
+    "Product Name": "Gala Leader Plus Floor Wiper",
+    "Brand": "Gala",
+    "Description": "The Gala Leader Plus Floor Wiper is a hygienic floor cleaning tool designed for efficient and streak-free cleaning.  It's individually packaged for hygiene and ease of use.",
+    "Category": "Cleaning Supplies",
+    "Subcategory": "Floor Cleaning",
+    "ProductLine": "Leader Plus",
+    "Quantity": 1,
+    "Unit": "unit",
+    "Features": [
+      "Efficient cleaning",
+      "Streak-free finish",
+      "Hygienically packed",
+      "Easy to use",
+      "Individual unit packaging"
+    ],
+    "Specification": {
+      "Item Code": "8901663103256"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T02:59:56.438731"
+  },
+  {
+    "Barcode": "8901663302802",
+    "Product Name": "Gala Diamond Looped Mop",
+    "Brand": "Gala",
+    "Description": "The Gala Diamond Looped Mop offers superior cleaning performance.  It's hygienically packed and designed for efficient cleaning.  Made in Germany.",
+    "Category": "Cleaning Supplies",
+    "Subcategory": "Mops",
+    "ProductLine": "Diamond",
+    "Quantity": 1,
+    "Unit": "unit",
+    "Features": [
+      "Diamond Looped Design for superior cleaning",
+      "Hygienically packed",
+      "Efficient cleaning performance",
+      "Durable construction (assumed based on product type)",
+      "Made in Germany"
+    ],
+    "Specification": {
+      "Type": "Looped Mop",
+      "Material": "Unknown",
+      "Handle Material": "Unknown",
+      "Head Size": "Unknown",
+      "Country of Origin": "Germany"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:00:02.070775"
+  },
+  {
+    "Barcode": "8901663002870",
+    "Product Name": "Gala Toilex Square Toilet Paper",
+    "Brand": "Gala",
+    "Description": "Gala Toilex Square is a toilet paper offering hygienic and pure quality.  Each pack contains one roll.  Manufactured in Germany.",
+    "Category": "Household Goods",
+    "Subcategory": "Toiletries",
+    "ProductLine": "Toilex",
+    "Quantity": 1,
+    "Unit": "pc",
+    "Features": [
+      "Hygienically packed",
+      "Pure quality",
+      "Square shape (likely)",
+      "Single roll packaging"
+    ],
+    "Specification": {
+      "Country of Origin": "Germany",
+      "Quantity per Pack": "1 pc",
+      "Shape": "Square"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:00:07.292671"
+  },
+  {
+    "Barcode": "8901663003273",
+    "Product Name": "Gala Toilex Roundy Scrub Brush",
+    "Brand": "Gala",
+    "Description": "The Gala Toilex Roundy is a scrub brush designed for cleaning.  It's a versatile cleaning tool suitable for various surfaces.  More detailed specifications are needed to fully describe its capabilities.",
+    "Category": "Cleaning Supplies",
+    "Subcategory": "Scrub Brushes",
+    "ProductLine": "Toilex",
+    "Quantity": 1,
+    "Unit": "piece",
+    "Features": [
+      "Round shape for easy scrubbing in tight spaces",
+      "Durable construction for long-lasting use",
+      "Designed for effective cleaning",
+      "Suitable for various surfaces (further details needed)",
+      "Ergonomic handle (assumed, needs verification)"
+    ],
+    "Specification": {
+      "Material": "Unknown (needs verification)",
+      "Dimensions": "Unknown (needs verification)",
+      "Handle Length": "Unknown (needs verification)",
+      "Brush Head Diameter": "Unknown (needs verification)"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:00:12.925225"
+  },
+  {
+    "Barcode": "8901663004102",
+    "Product Name": "Gala Super Scrub Set (Black)",
+    "Brand": "Gala",
+    "Description": "The Gala Super Scrub Set is a cleaning tool designed for efficient scrubbing.  This particular set comes in black and contains one piece.  It's ideal for various cleaning tasks around the home.",
+    "Category": "Home Cleaning Supplies",
+    "Subcategory": "Cleaning Tools",
+    "ProductLine": "Gala Super Scrub Set",
+    "Quantity": 1,
+    "Unit": "Piece",
+    "Features": [
+      "Durable construction",
+      "Effective scrubbing action",
+      "Easy to clean",
+      "Black color",
+      "Single-piece set"
+    ],
+    "Specification": {
+      "Color": "Black",
+      "Quantity in Set": "1",
+      "Material": "Unknown"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:00:17.328131"
+  },
+  {
+    "Barcode": "8901663102648",
+    "Product Name": "Gala PVA Mop",
+    "Brand": "Gala",
+    "Description": "The Gala PVA Mop is a cleaning mop designed for efficient and thorough cleaning.  It utilizes PVA (Polyvinyl Alcohol) fibers, known for their absorbency and durability.  This mop is ideal for various surfaces and is suitable for repeated use until the desired level of cleanliness is achieved. Manufactured and marketed by Freudenberg Gala Household Product Private Limited.",
+    "Category": "Cleaning Supplies",
+    "Subcategory": "Mops",
+    "ProductLine": "Gala Household Cleaning Products",
+    "Quantity": 1,
+    "Unit": "piece",
+    "Features": [
+      "PVA (Polyvinyl Alcohol) fibers for superior absorbency",
+      "Durable and long-lasting construction",
+      "Suitable for various surfaces",
+      "Efficient cleaning performance",
+      "Reusable and easy to clean"
+    ],
+    "Specification": {
+      "Material": "PVA (Polyvinyl Alcohol)",
+      "Type": "Mop"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:00:23.062219"
+  },
+  {
+    "Barcode": "8901365202479",
+    "Product Name": "Prestige Delux Alpha Svachh SS 2L Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "The Prestige Delux Alpha Svachh SS 2L Pressure Cooker is a 2-liter stainless steel pressure cooker.  It offers a convenient and efficient way to cook various dishes.  This model is known for its durability and ease of use.  Currently priced at \u20b92,590.00 (originally \u20b92,760.00).",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Pressure Cookers",
+    "ProductLine": "Prestige Delux Alpha Svachh",
+    "Quantity": 2.0,
+    "Unit": "L",
+    "Features": [
+      "2 Liter Capacity",
+      "Stainless Steel Construction",
+      "Durable and Easy to Clean",
+      "Efficient Cooking",
+      "Prestige Brand Quality"
+    ],
+    "Specification": {
+      "Capacity": "2 Liters",
+      "Material": "Stainless Steel",
+      "Type": "Pressure Cooker"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:00:28.898986"
+  },
+  {
+    "Barcode": "8901365202486",
+    "Product Name": "Prestige 3L Svachh Deluxe Alpha Stainless Steel Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "The Prestige 3L Svachh Deluxe Alpha Stainless Steel Pressure Cooker is a 3-liter capacity cooker designed for efficient and safe cooking.  It features a straight wall design and is compatible with gas and induction cooktops.  The deep lid helps control spillage, and the controlled gasket release system ensures safe operation.  Backed by a 10-year warranty.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Pressure Cookers",
+    "ProductLine": "Svachh Deluxe Alpha",
+    "Quantity": 3.0,
+    "Unit": "L",
+    "Features": [
+      "3-liter capacity (suitable for 3-4 persons)",
+      "Straight wall design",
+      "Stainless steel construction",
+      "Gas and induction compatible",
+      "Deep lid for spillage control",
+      "Controlled gasket release system for safe operation",
+      "10-year warranty"
+    ],
+    "Specification": {
+      "Capacity": "3 Liters",
+      "Material": "Stainless Steel",
+      "Cooktop Compatibility": "Gas, Induction",
+      "Lid Type": "Deep Lid",
+      "Warranty": "10 years",
+      "Package Dimensions": "15.6 x 9.7 x 5.9 inches"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:00:34.530808"
+  },
+  {
+    "Barcode": "8901365202493",
+    "Product Name": "Prestige Delux Alpha Svachh Stainless Steel 3.5L Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "The Prestige Delux Alpha Svachh 3.5L pressure cooker is a stainless steel cooker designed for efficient and safe cooking.  It offers a convenient way to prepare meals quickly while maintaining nutritional value.  This model is known for its durability and ease of use.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Pressure Cookers",
+    "ProductLine": "Prestige Delux Alpha Svachh",
+    "Quantity": 3.5,
+    "Unit": "L",
+    "Features": [
+      "Stainless Steel Construction",
+      "3.5 Liter Capacity",
+      "Safe and Efficient Cooking",
+      "Durable Design",
+      "Easy to Use"
+    ],
+    "Specification": {
+      "Capacity": "3.5 Liters",
+      "Material": "Stainless Steel",
+      "Type": "Pressure Cooker",
+      "Model": "Delux Alpha Svachh"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:00:40.265249"
+  },
+  {
+    "Barcode": "8901365202509",
+    "Product Name": "Prestige Delux Alpha Svachh Stainless Steel 4L Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "The Prestige Delux Alpha Svachh Stainless Steel 4L Pressure Cooker is a high-quality pressure cooker designed for efficient and safe cooking.  It features a stainless steel construction for durability and easy cleaning.  This model offers a convenient 4-liter capacity, ideal for families or individuals.  It's known for its reliable performance and ease of use.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Pressure Cookers",
+    "ProductLine": "Prestige Delux Alpha Svachh",
+    "Quantity": 4.0,
+    "Unit": "L",
+    "Features": [
+      "Stainless Steel Construction",
+      "4 Liter Capacity",
+      "Easy to Clean",
+      "Reliable Performance",
+      "Safe and Efficient Cooking"
+    ],
+    "Specification": {
+      "Capacity": "4 Liters",
+      "Material": "Stainless Steel",
+      "Type": "Pressure Cooker"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:00:44.872882"
+  },
+  {
+    "Barcode": "8901365202516",
+    "Product Name": "Prestige Delux Alpha Svachh 5.5L Stainless Steel Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "The Prestige Delux Alpha Svachh 5.5L Stainless Steel Pressure Cooker is a high-quality pressure cooker designed for efficient and safe cooking.  It features a stainless steel construction for durability and easy cleaning. This model offers a convenient and time-saving way to prepare various dishes.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Pressure Cookers",
+    "ProductLine": "Prestige Delux Alpha Svachh",
+    "Quantity": 5.5,
+    "Unit": "L",
+    "Features": [
+      "5.5 Liter capacity",
+      "Stainless Steel construction",
+      "Safe and efficient cooking",
+      "Easy to clean",
+      "Durable design"
+    ],
+    "Specification": {
+      "Capacity": "5.5 Liters",
+      "Material": "Stainless Steel",
+      "Type": "Pressure Cooker",
+      "Model": "Delux Alpha Svachh"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:00:50.575679"
+  },
+  {
+    "Barcode": "8901365202523",
+    "Product Name": "Prestige Deluxe Alpha Svachh Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "The Prestige Deluxe Alpha Svachh Pressure Cooker is a stainless steel pressure cooker suitable for cooking a wide variety of dishes, including porridge, risotto, chicken, and soup.  It features an induction base for compatibility with various cooktops. This model offers a convenient and efficient way to prepare meals.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Pressure Cookers",
+    "ProductLine": "Deluxe Alpha Svachh",
+    "Quantity": 1,
+    "Unit": "unit",
+    "Features": [
+      "Stainless Steel Construction",
+      "Induction Base for Compatibility with Various Cooktops",
+      "Suitable for a Wide Variety of Dishes",
+      "Efficient Cooking",
+      "Durable and Long-lasting"
+    ],
+    "Specification": {
+      "Material": "Stainless Steel",
+      "Capacity": "6.5 L",
+      "Base Type": "Induction Base"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:00:56.171659"
+  },
+  {
+    "Barcode": "8901365101710",
+    "Product Name": "Prestige Popular Plus Svachh Aluminium Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "The Prestige Popular Plus Svachh Aluminium Pressure Cooker is a versatile and convenient pressure cooker suitable for both gas and induction cooktops.  It's designed for efficient and safe cooking, offering a reliable solution for everyday meal preparation.  The 'Svachh' aspect likely refers to its easy-to-clean design.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Cookware",
+    "ProductLine": "Popular Plus",
+    "Quantity": 1,
+    "Unit": "piece",
+    "Features": [
+      "Gas and Induction Compatible",
+      "Aluminium Construction",
+      "Easy-to-Clean (Svachh)",
+      "Pressure Cooking Functionality",
+      "Suitable for everyday cooking"
+    ],
+    "Specification": {
+      "Material": "Aluminium",
+      "Cooking Type": "Pressure Cooking",
+      "Compatibility": "Gas & Induction",
+      "Size": "Unknown (requires further information from product page or packaging)",
+      "Capacity": "Unknown (requires further information from product page or packaging)"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:01:02.486160"
+  },
+  {
+    "Barcode": "8901365101734",
+    "Product Name": "Prestige Popular Plus Svachh Aluminium Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "The Prestige Popular Plus Svachh Aluminium Pressure Cooker is a versatile and convenient pressure cooker suitable for both gas and induction cooktops.  It's designed for efficient and safe cooking, offering a reliable solution for everyday meal preparation.  The 'Svachh' aspect likely refers to features promoting easy cleaning and hygiene.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Cookware",
+    "ProductLine": "Popular Plus",
+    "Quantity": 1,
+    "Unit": "piece",
+    "Features": [
+      "Gas and Induction Compatible",
+      "Aluminium Construction",
+      "Easy to Clean (implied by 'Svachh')",
+      "Pressure Cooking Functionality",
+      "Suitable for everyday use"
+    ],
+    "Specification": {
+      "Material": "Aluminium",
+      "Compatibility": "Gas and Induction",
+      "Cooking Type": "Pressure Cooking",
+      "Size": "Unspecified - Requires further investigation from product page or packaging",
+      "Capacity": "Unspecified - Requires further investigation from product page or packaging"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:01:08.527262"
+  },
+  {
+    "Barcode": "8901365203353",
+    "Product Name": "YFL HOME BlendLab Pro 2.0 Mixer Grinder",
+    "Brand": "YFL HOME",
+    "Description": "The YFL HOME BlendLab Pro 2.0 Mixer Grinder is a powerful kitchen appliance designed for efficient blending and grinding.  This model boasts a 1200W motor for superior performance and includes two unbreakable jars for versatile use.  It features preset blend modes for ease of use and laser-cut stainless steel blades for optimal results.  Backed by a 2-year brand warranty, ensuring reliable performance and quality.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Blenders & Mixers",
+    "ProductLine": "BlendLab Pro",
+    "Quantity": 1,
+    "Unit": "unit",
+    "Features": [
+      "1200W Powerful Motor",
+      "Two Unbreakable Jars",
+      "Preset Blend Modes",
+      "Laser-Cut Stainless Steel Blades",
+      "2-Year Brand Warranty"
+    ],
+    "Specification": {
+      "Power": "1200W",
+      "Number of Jars": "2",
+      "Blade Material": "Laser-Cut Stainless Steel",
+      "Warranty": "2 years"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:01:15.183349"
+  },
+  {
+    "Barcode": "8901365201717",
+    "Product Name": "Prestige Popular Svachh SS2L Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "The Prestige Popular Svachh SS2L Pressure Cooker is a 2-liter aluminum pressure cooker designed for convenient and safe cooking.  It features a spillage control mechanism and is known for its durability and ease of use.  This model is part of the Prestige Popular Svachh line, emphasizing cleanliness and hygiene.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Pressure Cookers",
+    "ProductLine": "Prestige Popular Svachh",
+    "Quantity": 2.0,
+    "Unit": "L",
+    "Features": [
+      "2 Liter Capacity",
+      "Aluminum Construction",
+      "Spillage Control",
+      "Durable Design",
+      "Easy to Use"
+    ],
+    "Specification": {
+      "Capacity": "2 Liters",
+      "Material": "Aluminum",
+      "Type": "Pressure Cooker",
+      "Control Type": "Spillage Control"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:01:26.139741"
+  },
+  {
+    "Barcode": "8901365201922",
+    "Product Name": "Prestige Svachh Popular 1.5 Litre Stainless Steel Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "The Prestige Svachh Popular 1.5 Litre Stainless Steel Pressure Cooker is an induction-compatible pressure cooker designed for efficient and safe cooking.  It's made from high-quality stainless steel, ensuring durability and easy cleaning. This model is part of Prestige's popular Svachh line, known for its focus on hygiene and ease of use.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Cookware",
+    "ProductLine": "Svachh",
+    "Quantity": 1.5,
+    "Unit": "l",
+    "Features": [
+      "1.5 Litre Capacity",
+      "Made from Stainless Steel",
+      "Induction Compatible",
+      "Pressure Cooking Functionality",
+      "Easy to Clean"
+    ],
+    "Specification": {
+      "Material": "Stainless Steel",
+      "Capacity": "1.5 Litres",
+      "Induction Compatibility": "Yes",
+      "Type": "Pressure Cooker"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:01:31.259707"
+  },
+  {
+    "Barcode": "8901365201564",
+    "Product Name": "Prestige Svachh Flip-On Stainless Steel 3-Liter Pressure Cooker with Glass Lid",
+    "Brand": "Prestige",
+    "Description": "The Prestige Svachh Flip-On 3-liter pressure cooker is a stainless steel cooker with a convenient flip-on lid and a glass lid.  It's designed for efficient and safe pressure cooking.  The package includes the pressure cooker and a user manual. Made in India.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Cookware",
+    "ProductLine": "Prestige Svachh",
+    "Quantity": 3.0,
+    "Unit": "liters",
+    "Features": [
+      "Stainless Steel Construction",
+      "Flip-On Lid for Easy Operation",
+      "Included Glass Lid",
+      "3-Liter Capacity",
+      "Made in India"
+    ],
+    "Specification": {
+      "Capacity": "3 Liters",
+      "Material": "Stainless Steel",
+      "Lid Type": "Flip-On with Glass Lid",
+      "Origin": "India",
+      "Year of Manufacture": "2023"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:01:37.403375"
+  },
+  {
+    "Barcode": "8901365201724",
+    "Product Name": "Prestige Popular Svachh Spillage Control Stainless Steel Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "The Prestige Popular Svachh Spillage Control Stainless Steel Pressure Cooker is an induction-compatible cooker designed for convenient and safe cooking.  It features a spillage control mechanism to prevent messy spills and boasts a durable stainless steel construction. This pressure cooker offers efficient cooking and is ideal for various culinary needs.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Cookware",
+    "ProductLine": "Prestige Popular Svachh",
+    "Quantity": 1,
+    "Unit": "piece",
+    "Features": [
+      "Spillage Control Mechanism",
+      "Stainless Steel Construction",
+      "Induction Compatible",
+      "Pressure Cooking Functionality",
+      "Durable and Long-lasting"
+    ],
+    "Specification": {
+      "Material": "Stainless Steel",
+      "Cooking Type": "Pressure Cooking",
+      "Induction Compatibility": "Yes",
+      "Capacity": "Unspecified (requires further information)",
+      "Warranty": "Unspecified (requires further information)"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:01:42.215951"
+  },
+  {
+    "Barcode": "8901365201571",
+    "Product Name": "Prestige Svachh Flip-On SS Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "The Prestige Svachh Flip-On SS Pressure Cooker is an ISI certified pressure cooker with a convenient flip-on lid mechanism.  It's made of stainless steel and features a glass lid for easy monitoring. This model offers a 5-liter capacity and is ideal for everyday cooking.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Pressure Cookers",
+    "ProductLine": "Svachh",
+    "Quantity": 5.0,
+    "Unit": "l",
+    "Features": [
+      "ISI Certified",
+      "Flip-On Lid Mechanism",
+      "Stainless Steel Construction",
+      "Glass Lid for Monitoring",
+      "5 Liter Capacity"
+    ],
+    "Specification": {
+      "Model Number": "Svachh FLIP-ON",
+      "Part Number": "20157",
+      "Material": "Stainless Steel",
+      "Capacity": "5 Liters",
+      "Dimensions": "13.5 x 11.4 x 11.3 inches"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:01:48.257973"
+  },
+  {
+    "Barcode": "8901365202554",
+    "Product Name": "Prestige 5L Deluxe Alpha Svachh Stainless Steel Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "The Prestige 5L Deluxe Alpha Svachh Stainless Steel Pressure Cooker is a 5-liter capacity pressure cooker ideal for 5-7 persons.  It features a deep lid for spillage control and is compatible with gas and induction cooktops.  Made from high-quality stainless steel, it offers durability and ease of cleaning. This model prioritizes safety and efficient cooking.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Pressure Cookers",
+    "ProductLine": "Deluxe Alpha Svachh",
+    "Quantity": 5.0,
+    "Unit": "L",
+    "Features": [
+      "5L capacity (suitable for 5-7 persons)",
+      "Deep lid for spillage control",
+      "Made from high-quality stainless steel",
+      "Gas and induction compatible",
+      "Durable and easy to clean"
+    ],
+    "Specification": {
+      "Capacity": "5 Liters",
+      "Material": "Stainless Steel",
+      "Cooking Top Compatibility": "Gas, Induction",
+      "Lid Type": "Deep Lid"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:01:54.504214"
+  },
+  {
+    "Barcode": "8901365201731",
+    "Product Name": "Prestige Popular Svachh SS5L Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "The Prestige Popular Svachh SS5L is a 5-liter stainless steel pressure cooker.  It's designed for efficient and safe cooking, offering convenience and durability.  This model is known for its ease of use and reliable performance.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Pressure Cookers",
+    "ProductLine": "Prestige Popular Svachh",
+    "Quantity": 5.0,
+    "Unit": "liters",
+    "Features": [
+      "5 Liter Capacity",
+      "Stainless Steel Construction",
+      "Safe and Efficient Cooking",
+      "Easy to Use",
+      "Durable Design"
+    ],
+    "Specification": {
+      "Capacity": "5 Liters",
+      "Material": "Stainless Steel",
+      "Model Number": "20173"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:02:00.341142"
+  },
+  {
+    "Barcode": "8901365100249",
+    "Product Name": "Prestige Popular Aluminium Outer Lid Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "A versatile pressure cooker ideal for preparing a wide variety of dishes, including porridge, risotto, chicken, and soup.  This model features an aluminium body and an outer lid design.  Suitable for use on induction cooktops.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Cookware",
+    "ProductLine": "Prestige Popular",
+    "Quantity": 1,
+    "Unit": "piece",
+    "Features": [
+      "Aluminium construction",
+      "Outer lid design",
+      "Suitable for induction cooktops",
+      "Durable and long-lasting",
+      "Versatile for various cooking needs"
+    ],
+    "Specification": {
+      "Material": "Aluminium",
+      "Lid Type": "Outer Lid",
+      "Capacity": "6.5 L",
+      "Induction Compatible": "Yes"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:02:05.971605"
+  },
+  {
+    "Barcode": "8901365100270",
+    "Product Name": "Prestige Popular Aluminium Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "The Prestige Popular Aluminium Pressure Cooker is a 7.5L pressure cooker crafted from premium virgin aluminium.  It features an ergonomic design with safety handles for convenient and safe use.  This cooker is designed for efficient and reliable pressure cooking, making meal preparation quicker and easier.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Cookware",
+    "ProductLine": "Popular",
+    "Quantity": 7.5,
+    "Unit": "L",
+    "Features": [
+      "Made from premium virgin aluminium",
+      "Ergonomic safety handles",
+      "7.5L capacity",
+      "Efficient pressure cooking",
+      "Reliable and durable"
+    ],
+    "Specification": {
+      "Material": "Aluminium",
+      "Capacity": "7.5 Liters",
+      "Color": "Silver"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:02:11.706735"
+  },
+  {
+    "Barcode": "8901365100300",
+    "Product Name": "Prestige Popular Aluminium Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "The Prestige Popular Aluminium Pressure Cooker is a 10-liter pressure cooker crafted from premium virgin aluminum.  It features ergonomically designed safety handles for secure and comfortable use.  This cooker is designed for efficient and safe pressure cooking, making meal preparation quicker and easier.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Cookware",
+    "ProductLine": "Popular",
+    "Quantity": 10.0,
+    "Unit": "l",
+    "Features": [
+      "Made from premium virgin aluminum",
+      "Ergonomic safety handles",
+      "Efficient pressure cooking",
+      "10-liter capacity",
+      "Safe and reliable operation"
+    ],
+    "Specification": {
+      "Material": "Aluminum",
+      "Capacity": "10 liters",
+      "Color": "Silver",
+      "Type": "Pressure Cooker"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:02:16.212312"
+  },
+  {
+    "Barcode": "8901365100331",
+    "Product Name": "Prestige Popular Aluminium Outer Lid Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "A versatile pressure cooker ideal for cooking a wide variety of dishes, including porridge, risotto, chicken, and soup.  This model features an aluminium body and an outer lid design.  Suitable for use on induction cooktops.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Pressure Cookers",
+    "ProductLine": "Popular",
+    "Quantity": 1,
+    "Unit": "piece",
+    "Features": [
+      "Aluminium construction",
+      "Outer lid design",
+      "Suitable for induction cooktops",
+      "Durable and long-lasting",
+      "Versatile for various cooking needs"
+    ],
+    "Specification": {
+      "Capacity": "12L (as indicated by the source URL, this may vary depending on the specific model)",
+      "Material": "Aluminium",
+      "Lid Type": "Outer Lid",
+      "Induction Compatible": "Yes"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:02:21.946847"
+  },
+  {
+    "Barcode": "8901365101727",
+    "Product Name": "Prestige Popular Plus Svachh Aluminium Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "The Prestige Popular Plus Svachh Aluminium Pressure Cooker is a versatile and convenient pressure cooker suitable for both gas and induction cooktops.  It's designed for efficient and safe cooking, offering a reliable solution for everyday meal preparation.  The 'Svachh' aspect likely refers to its easy-to-clean design.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Cookware",
+    "ProductLine": "Popular Plus",
+    "Quantity": 1,
+    "Unit": "piece",
+    "Features": [
+      "Gas and Induction Compatible",
+      "Aluminium Construction",
+      "Easy-to-Clean Design (implied by 'Svachh')",
+      "Pressure Cooking Functionality",
+      "Suitable for everyday cooking"
+    ],
+    "Specification": {
+      "Material": "Aluminium",
+      "Compatibility": "Gas and Induction",
+      "Cooking Type": "Pressure Cooking",
+      "Size": "Unspecified - Requires further investigation from product page or packaging",
+      "Capacity": "Unspecified - Requires further investigation from product page or packaging"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:02:28.090666"
+  },
+  {
+    "Barcode": "8901365101673",
+    "Product Name": "Prestige Popular Svachh 5 Litre Aluminium Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "Prestige Popular Svachh 5-litre aluminium pressure cooker.  A reliable and efficient pressure cooker designed for convenient and safe cooking.  Features a sturdy aluminium construction for durability and even heat distribution.  Return & Replacement is accepted within 10 days of delivery, only if goods are damaged or there is a case of wrong, missing, or undelivered items.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Cookware",
+    "ProductLine": "Popular Svachh",
+    "Quantity": 5.0,
+    "Unit": "l",
+    "Features": [
+      "5 Litre Capacity",
+      "Aluminium Construction",
+      "Pressure Cooking Functionality",
+      "Safe and Efficient Cooking",
+      "Durable Design"
+    ],
+    "Specification": {
+      "Material": "Aluminium",
+      "Capacity": "5 Litres",
+      "Type": "Pressure Cooker"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:02:33.927448"
+  },
+  {
+    "Barcode": "8901365101666",
+    "Product Name": "Prestige Popular Svachh Virgin Aluminium Spillage Control Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "The Prestige Popular Svachh Virgin Aluminium Spillage Control Pressure Cooker is a 4-liter pressure cooker made from virgin aluminum.  It features a spillage control mechanism to prevent messy spills.  This pressure cooker is designed for convenient and safe cooking.  Hand wash only; do not put in the dishwasher.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Cookware",
+    "ProductLine": "Prestige Popular Svachh",
+    "Quantity": 1,
+    "Unit": "piece",
+    "Features": [
+      "Made from virgin aluminum",
+      "4-liter capacity",
+      "Spillage control mechanism",
+      "Safe and convenient cooking",
+      "Durable and long-lasting"
+    ],
+    "Specification": {
+      "Material": "Virgin Aluminium",
+      "Capacity": "4 Liters",
+      "Type": "Pressure Cooker",
+      "Cleaning Instructions": "Hand wash only",
+      "Dishwasher Safe": "No"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:02:39.968767"
+  },
+  {
+    "Barcode": "8901365102076",
+    "Product Name": "Prestige Popular Plus Pressure Cooker",
+    "Brand": "Prestige",
+    "Description": "The Prestige Popular Plus Pressure Cooker is a versatile kitchen appliance ideal for cooking a wide variety of dishes, including porridge, risotto, chicken, and soup.  Its durable construction ensures long-lasting performance. This model features an aluminum outer lid and an induction base for efficient and even heating.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Cookware",
+    "ProductLine": "Popular Plus",
+    "Quantity": 1,
+    "Unit": "piece",
+    "Features": [
+      "Aluminum Outer Lid",
+      "Induction Base for efficient heating",
+      "Durable Construction",
+      "Versatile for various dishes",
+      "Pressure Cooking Functionality"
+    ],
+    "Specification": {
+      "Material": "Aluminum",
+      "Capacity": "7.5 L",
+      "Type": "Pressure Cooker",
+      "Base Type": "Induction Base"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:02:45.703223"
+  },
+  {
+    "Barcode": "8901365203377",
+    "Product Name": "Prestige Popular Svachh Hard Anodised Outer Lid Pressure Cooker (5.0L)",
+    "Brand": "Prestige",
+    "Description": "The Prestige Popular Svachh Hard Anodised Outer Lid Pressure Cooker is a 5-liter pressure cooker with a black, hard-anodized body.  Its deep lid design helps control spillage during cooking. This model is designed for efficient and safe pressure cooking.",
+    "Category": "Kitchen Appliances",
+    "Subcategory": "Cookware",
+    "ProductLine": "Popular Svachh",
+    "Quantity": 1,
+    "Unit": "piece",
+    "Features": [
+      "Hard Anodised Body",
+      "Deep Lid for Spillage Control",
+      "5.0 Liter Capacity",
+      "Outer Lid Design",
+      "Pressure Cooking Functionality"
+    ],
+    "Specification": {
+      "Capacity": "5.0 Liters",
+      "Material": "Hard Anodised Aluminium",
+      "Color": "Black"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:02:55.636104"
+  },
+  {
+    "Barcode": "8904098970035",
+    "Product Name": "Joyo Rio Round Toilet Brush",
+    "Brand": "Joyo",
+    "Description": "The Joyo Rio Round Toilet Brush is a 12-inch toilet cleaning brush with nylon bristles and a plastic handle.  It's designed for efficient and convenient toilet cleaning.",
+    "Category": "Home Cleaning Supplies",
+    "Subcategory": "Toilet Cleaning",
+    "ProductLine": "Rio",
+    "Quantity": 1,
+    "Unit": "piece",
+    "Features": [
+      "Nylon bristles for effective cleaning",
+      "Durable plastic construction",
+      "Round brush head for easy access",
+      "12-inch size for comfortable reach",
+      "White color"
+    ],
+    "Specification": {
+      "Bristle Material": "Nylon",
+      "Handle Material": "Plastic",
+      "Size": "12 inch",
+      "Color": "White",
+      "Usage": "Toilet Cleaning"
+    },
+    "Product Image": "",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:03:12.121979"
+  },
+  {
+    "Barcode": "8904098970240",
+    "Product Name": "Joyo Clean Max Cotton Mop",
+    "Brand": "Joyo",
+    "Description": "A cotton mop from the Joyo brand, designed for effective and efficient cleaning.  It likely features a durable handle and absorbent cotton head for easy cleaning of various surfaces.",
+    "Category": "Cleaning Supplies",
+    "Subcategory": "Mops",
+    "ProductLine": "Clean Max",
+    "Quantity": 1,
+    "Unit": "piece",
+    "Features": [
+      "Cotton mop head for absorbency",
+      "Durable handle for comfortable use",
+      "Effective cleaning of various surfaces (floors, counters, etc.)",
+      "Easy to wring out and clean",
+      "Reusable and washable (assuming based on cotton material)"
+    ],
+    "Specification": {
+      "Material": "Cotton",
+      "Handle Material": "Unknown (requires further investigation)",
+      "Head Size": "Unknown (requires further investigation)",
+      "Handle Length": "Unknown (requires further investigation)"
+    },
+    "Product Image": "https://images.openfoodfacts.org/images/products/890/409/897/0240/front_en.3.400.jpg",
+    "Product Ingredient Image": "",
+    "Data Source": "AI Enhanced",
+    "Timestamp": "2025-06-05T03:04:17.861627"
   }
 ]

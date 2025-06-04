@@ -21,7 +21,8 @@ from constants import (
     DEEPSEEK_MODEL, AI_TEMPERATURE, GEMINI_MAX_TOKENS, OPENAI_MAX_TOKENS,
     DEEPSEEK_MAX_TOKENS, CATEGORY_KEYWORDS, SUBCATEGORY_MAP, INDIA_COMPANY_CODES,
     BARCODE_CATEGORY_PATTERNS, QUANTITY_PATTERNS, AI_SERVICE_DEFAULT_STATUS,
-    AI_ENHANCEMENT_PROMPT_TEMPLATE
+    AI_ENHANCEMENT_PROMPT_TEMPLATE,JSON_CODEBLOCK_PATTERN, JSON_UNQUOTED_PROPERTY_PATTERN,JSON_TRAILING_COMMA_PATTERN,JSON_MISSING_COMMA_PATTERN,JSON_UNQUOTED_VALUE_PATTERN,
+    JSON_MAX_CLEANUP_ATTEMPTS
 )
 
 # Setup logging
@@ -628,7 +629,54 @@ class BarcodeProcessor:
                 return True
                 
         return False
-
+    def clean_and_parse_json(text):
+     """
+     Clean and parse potentially malformed JSON from AI responses.
+     Uses multiple strategies to fix common JSON errors.
+     """
+     # First, try to extract JSON block if embedded in other text
+     json_match = re.search(JSON_CODEBLOCK_PATTERN, text, re.DOTALL)
+     if json_match:
+        text = json_match.group(1)
+     else:
+        # Try to find JSON between curly braces
+        json_start = text.find('{')
+        json_end = text.rfind('}') + 1
+        if json_start >= 0 and json_end > json_start:
+            text = text[json_start:json_end]
+    
+     # Try direct parsing first
+     try:
+        return json.loads(text)
+     except json.JSONDecodeError:
+        pass
+    
+     # Fix unquoted property names (the error you're specifically seeing)
+     fixed_text = re.sub(JSON_UNQUOTED_PROPERTY_PATTERN, r'\1"\2":', text)
+    
+     # Fix trailing commas in lists and objects
+     fixed_text = re.sub(JSON_TRAILING_COMMA_PATTERN, r'\1', fixed_text)
+    
+     # Fix missing commas between elements
+     fixed_text = re.sub(JSON_MISSING_COMMA_PATTERN, r'\1,\n\2', fixed_text)
+    
+     # Try parsing the fixed JSON
+     try:
+        return json.loads(fixed_text)
+     except json.JSONDecodeError:
+        # If still failing, try a more aggressive approach
+        # Fix single quotes to double quotes
+        fixed_text = fixed_text.replace("'", '"')
+        # Fix missing quotes around string values
+        fixed_text = re.sub(JSON_UNQUOTED_VALUE_PATTERN, r': "\1"\2', fixed_text)
+        
+        try:
+            return json.loads(fixed_text)
+        except json.JSONDecodeError as e:
+            # Last resort, log the error and return None or raise
+            print(f"Failed to parse JSON after cleanup: {e}")
+            print(f"Problematic text: {text}")
+            return None
     def _search_google(self, barcode: str) -> Optional[Dict]:
         """Search for barcode on Google using Google Custom Search API."""
         try:
@@ -833,87 +881,82 @@ class BarcodeProcessor:
             return None
     
     def _enhance_with_ai(self, product_data: Dict, barcode: str) -> Dict:
-        """Enhance product data using AI, with fallback to local processing."""
-        # Skip AI if all services have had multiple failures
-        if (not self.ai_service_status["gemini"]["working"] and
-            not self.ai_service_status["openai"]["working"] and 
-            not self.ai_service_status["deepseek"]["working"]):
-            logger.info("All AI services are disabled due to repeated failures, using local processing")
-            return self._intelligent_format_product_data(product_data, barcode)
+     """Enhance product data using AI, with fallback to local processing."""
+     # Skip AI if all services have had multiple failures
+     if (not self.ai_service_status["gemini"]["working"] and
+        not self.ai_service_status["openai"]["working"] and 
+        not self.ai_service_status["deepseek"]["working"]):
+        logger.info("All AI services are disabled due to repeated failures, using local processing")
+        return self._intelligent_format_product_data(product_data, barcode)
+    
+     try:
+        # Prepare data for AI enhancement
+        context = json.dumps(product_data, indent=2)
         
-        try:
-            # Prepare data for AI enhancement
-            context = json.dumps(product_data, indent=2)
-            
-            prompt = AI_ENHANCEMENT_PROMPT_TEMPLATE.format(barcode=barcode, context=context)
-            
-            # Try AI enhancement with fixed error handling
-            response = None
-            
-            # Try Gemini first (primary AI service)
-            if self.ai_service_status["gemini"]["working"]:
-                logger.info("Enhancing product data with Gemini API")
-                response = self._call_gemini_api(prompt)
-                
-                # If Gemini failed 3 times in a row, mark it as not working
-                if not response and self.ai_service_status["gemini"]["failures"] >= 3:
-                    for attempt in range(1, 30):
-                        wait_time = (attempt + 1) * 2
-                        logger.warning(f"Gemini rate limit hit, waiting {wait_time} seconds")
-                        time.sleep(wait_time)
-                    logger.warning("Gemini API marked as unavailable after repeated failures")
-                    self.ai_service_status["gemini"]["working"] = False
-            
-            # If Gemini failed, try OpenAI if it's still working
-            if not response and self.ai_service_status["openai"]["working"]:
-                logger.info("Gemini enhancement failed, trying OpenAI")
-                response = self._call_openai_api(prompt)
-                
-                # If OpenAI failed 3 times in a row, mark it as not working
-                if not response and self.ai_service_status["openai"]["failures"] >= 3:
-                    logger.warning("OpenAI API marked as unavailable after repeated failures")
-                    self.ai_service_status["openai"]["working"] = False
-            
-            # If OpenAI failed or is marked as not working, try DeepSeek
-            if not response and self.ai_service_status["deepseek"]["working"]:
-                logger.info("OpenAI enhancement failed, trying DeepSeek")
-                response = self._call_deepseek_api(prompt)
-                
-                # If DeepSeek failed 3 times in a row, mark it as not working
-                if not response and self.ai_service_status["deepseek"]["failures"] >= 3:
-                    logger.warning("DeepSeek API marked as unavailable after repeated failures")
-                    self.ai_service_status["deepseek"]["working"] = False
-            
-            if response:
-                try:
-                    # Try to extract JSON from the response
-                    json_start = response.find('{')
-                    json_end = response.rfind('}') + 1
-                    if json_start >= 0 and json_end > json_start:
-                        json_str = response[json_start:json_end]
-                        enhanced_data = json.loads(json_str)
-                        
-                        # Make sure we have at least a name
-                        if 'Product Name' in enhanced_data and enhanced_data['Product Name']:
-                            # Add timestamps and image info
-                            enhanced_data['Product Image'] = product_data.get('image_url', '')
-                            enhanced_data['Product Ingredient Image'] = product_data.get('ingredient_image', '')
-                            enhanced_data['Data Source'] = 'AI Enhanced'
-                            enhanced_data['Timestamp'] = datetime.now().isoformat()
-                            
-                            logger.info("Successfully enhanced product data with AI")
-                            return enhanced_data
-                except Exception as e:
-                    logger.error(f"Error parsing AI response: {e}")
+        prompt = AI_ENHANCEMENT_PROMPT_TEMPLATE.format(barcode=barcode, context=context)
         
-            # If AI fails, use intelligent local processing
-            logger.info("AI enhancement failed, using intelligent local processing")
-            return self._intelligent_format_product_data(product_data, barcode)
+        # Try AI enhancement with fixed error handling
+        response = None
+        
+        # Try Gemini first (primary AI service)
+        if self.ai_service_status["gemini"]["working"]:
+            logger.info("Enhancing product data with Gemini API")
+            response = self._call_gemini_api(prompt)
             
-        except Exception as e:
-            logger.error(f"Error enhancing product data with AI: {e}")
-            return self._intelligent_format_product_data(product_data, barcode)
-
+            # If Gemini failed 3 times in a row, mark it as not working
+            if not response and self.ai_service_status["gemini"]["failures"] >= 3:
+                for attempt in range(1, 30):
+                    wait_time = (attempt + 1) * 2
+                    logger.warning(f"Gemini rate limit hit, waiting {wait_time} seconds")
+                    time.sleep(wait_time)
+                logger.warning("Gemini API marked as unavailable after repeated failures")
+                self.ai_service_status["gemini"]["working"] = False
+        
+        # If Gemini failed, try OpenAI if it's still working
+        if not response and self.ai_service_status["openai"]["working"]:
+            logger.info("Gemini enhancement failed, trying OpenAI")
+            response = self._call_openai_api(prompt)
+            
+            # If OpenAI failed 3 times in a row, mark it as not working
+            if not response and self.ai_service_status["openai"]["failures"] >= 3:
+                logger.warning("OpenAI API marked as unavailable after repeated failures")
+                self.ai_service_status["openai"]["working"] = False
+        
+        # If OpenAI failed or is marked as not working, try DeepSeek
+        if not response and self.ai_service_status["deepseek"]["working"]:
+            logger.info("OpenAI enhancement failed, trying DeepSeek")
+            response = self._call_deepseek_api(prompt)
+            
+            # If DeepSeek failed 3 times in a row, mark it as not working
+            if not response and self.ai_service_status["deepseek"]["failures"] >= 3:
+                logger.warning("DeepSeek API marked as unavailable after repeated failures")
+                self.ai_service_status["deepseek"]["working"] = False
+        
+        if response:
+            try:
+                # Use the improved JSON parser
+                from json_parser import clean_and_parse_json
+                enhanced_data = clean_and_parse_json(response)
+                
+                if enhanced_data and 'Product Name' in enhanced_data and enhanced_data['Product Name']:
+                    # Add timestamps and image info
+                    enhanced_data['Product Image'] = product_data.get('image_url', '')
+                    enhanced_data['Product Ingredient Image'] = product_data.get('ingredient_image', '')
+                    enhanced_data['Data Source'] = 'AI Enhanced'
+                    enhanced_data['Timestamp'] = datetime.now().isoformat()
+                    
+                    logger.info("Successfully enhanced product data with AI")
+                    return enhanced_data
+            except Exception as e:
+                logger.error(f"Error parsing AI response: {e}")
+    
+        # If AI fails, use intelligent local processing
+        logger.info("AI enhancement failed, using intelligent local processing")
+        return self._intelligent_format_product_data(product_data, barcode)
+        
+     except Exception as e:
+        logger.error(f"Error enhancing product data with AI: {e}")
+        return self._intelligent_format_product_data(product_data, barcode)
     def _call_gemini_api(self, prompt: str) -> Optional[str]:
         """Call Google Gemini API with updated model name."""
         try:

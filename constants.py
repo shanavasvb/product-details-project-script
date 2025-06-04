@@ -155,3 +155,10 @@ Format the response as a JSON object that follows this exact structure:
   }}
 }}
 """
+# JSON Parsing Constants
+JSON_CODEBLOCK_PATTERN = r'```json\s*(.*?)\s*```'
+JSON_UNQUOTED_PROPERTY_PATTERN = r'([{,])\s*([a-zA-Z0-9_]+)\s*:'
+JSON_TRAILING_COMMA_PATTERN = r',\s*([}\]])'
+JSON_MISSING_COMMA_PATTERN = r'(["\d])\s*\n\s*([{\["a-zA-Z])'
+JSON_UNQUOTED_VALUE_PATTERN = r':\s*([a-zA-Z][a-zA-Z0-9_\s]+)([,}])'
+JSON_MAX_CLEANUP_ATTEMPTS = 3
