@@ -629,54 +629,7 @@ class BarcodeProcessor:
                 return True
                 
         return False
-    def clean_and_parse_json(text):
-     """
-     Clean and parse potentially malformed JSON from AI responses.
-     Uses multiple strategies to fix common JSON errors.
-     """
-     # First, try to extract JSON block if embedded in other text
-     json_match = re.search(JSON_CODEBLOCK_PATTERN, text, re.DOTALL)
-     if json_match:
-        text = json_match.group(1)
-     else:
-        # Try to find JSON between curly braces
-        json_start = text.find('{')
-        json_end = text.rfind('}') + 1
-        if json_start >= 0 and json_end > json_start:
-            text = text[json_start:json_end]
     
-     # Try direct parsing first
-     try:
-        return json.loads(text)
-     except json.JSONDecodeError:
-        pass
-    
-     # Fix unquoted property names (the error you're specifically seeing)
-     fixed_text = re.sub(JSON_UNQUOTED_PROPERTY_PATTERN, r'\1"\2":', text)
-    
-     # Fix trailing commas in lists and objects
-     fixed_text = re.sub(JSON_TRAILING_COMMA_PATTERN, r'\1', fixed_text)
-    
-     # Fix missing commas between elements
-     fixed_text = re.sub(JSON_MISSING_COMMA_PATTERN, r'\1,\n\2', fixed_text)
-    
-     # Try parsing the fixed JSON
-     try:
-        return json.loads(fixed_text)
-     except json.JSONDecodeError:
-        # If still failing, try a more aggressive approach
-        # Fix single quotes to double quotes
-        fixed_text = fixed_text.replace("'", '"')
-        # Fix missing quotes around string values
-        fixed_text = re.sub(JSON_UNQUOTED_VALUE_PATTERN, r': "\1"\2', fixed_text)
-        
-        try:
-            return json.loads(fixed_text)
-        except json.JSONDecodeError as e:
-            # Last resort, log the error and return None or raise
-            print(f"Failed to parse JSON after cleanup: {e}")
-            print(f"Problematic text: {text}")
-            return None
     def _search_google(self, barcode: str) -> Optional[Dict]:
         """Search for barcode on Google using Google Custom Search API."""
         try:
@@ -879,7 +832,56 @@ class BarcodeProcessor:
         except Exception as e:
             logger.error(f"Error in DigiTeyes search: {e}")
             return None
+    # Add this function to your BarcodeProcessor class:
+
+    def clean_and_parse_json(self, text):
+     """
+     Clean and parse potentially malformed JSON from AI responses.
+     Uses multiple strategies to fix common JSON errors.
+     """
+     # First, try to extract JSON block if embedded in other text
+     json_match = re.search(JSON_CODEBLOCK_PATTERN, text, re.DOTALL)
+     if json_match:
+        text = json_match.group(1)
+     else:
+        # Try to find JSON between curly braces
+        json_start = text.find('{')
+        json_end = text.rfind('}') + 1
+        if json_start >= 0 and json_end > json_start:
+            text = text[json_start:json_end]
     
+     # Try direct parsing first
+     try:
+        return json.loads(text)
+     except json.JSONDecodeError:
+        pass
+    
+     # Fix unquoted property names (the error you're specifically seeing)
+     fixed_text = re.sub(JSON_UNQUOTED_PROPERTY_PATTERN, r'\1"\2":', text)
+    
+     # Fix trailing commas in lists and objects
+     fixed_text = re.sub(JSON_TRAILING_COMMA_PATTERN, r'\1', fixed_text)
+    
+     # Fix missing commas between elements
+     fixed_text = re.sub(JSON_MISSING_COMMA_PATTERN, r'\1,\n\2', fixed_text)
+     
+     # Try parsing the fixed JSON
+     try:
+        return json.loads(fixed_text)
+     except json.JSONDecodeError:
+        # If still failing, try a more aggressive approach
+        # Fix single quotes to double quotes
+        fixed_text = fixed_text.replace("'", '"')
+        # Fix missing quotes around string values
+        fixed_text = re.sub(JSON_UNQUOTED_VALUE_PATTERN, r': "\1"\2', fixed_text)
+        
+        try:
+            return json.loads(fixed_text)
+        except json.JSONDecodeError as e:
+            # Last resort, log the error and return None
+            logger.error(f"Failed to parse JSON after cleanup: {e}")
+            logger.debug(f"Problematic text: {text}")
+            return None
     def _enhance_with_ai(self, product_data: Dict, barcode: str) -> Dict:
      """Enhance product data using AI, with fallback to local processing."""
      # Skip AI if all services have had multiple failures
@@ -934,9 +936,8 @@ class BarcodeProcessor:
         
         if response:
             try:
-                # Use the improved JSON parser
-                from json_parser import clean_and_parse_json
-                enhanced_data = clean_and_parse_json(response)
+                # Use the improved JSON parser (now a class method)
+                enhanced_data = self.clean_and_parse_json(response)
                 
                 if enhanced_data and 'Product Name' in enhanced_data and enhanced_data['Product Name']:
                     # Add timestamps and image info
