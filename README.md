@@ -8,7 +8,7 @@
 A robust enterprise-grade tool for scanning product barcodes and retrieving detailed information from multiple sources, with AI-powered data enhancement capabilities.
 
 **Version:** 2.3.0  
-**Last Updated:** 2025-05-30  
+**Last Updated:** 2025-06-12  
 **Developed for:** datcarts
 
 ## 🚀 Overview
